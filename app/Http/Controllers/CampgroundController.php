@@ -86,7 +86,7 @@ class CampgroundController extends Controller
       $campground->delete();
      
 
-    return redirect('/campgrounds')->with('message','Catagory Deleted Successfully');
+    return redirect('/campgrounds')->with('message','campground Deleted Successfully');
 }
          
 else

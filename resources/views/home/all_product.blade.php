@@ -10,7 +10,7 @@
       <meta name="description" content="" />
       <meta name="author" content="" />
 
-    <title>Ogani | Template</title>
+    <title>  camploca </title>
 
 
       <link rel="shortcut icon" href="images/favicon.png" type="">
@@ -34,7 +34,13 @@
     <link rel="stylesheet" href="{{asset('home1/css/slicknav.min.css')}}" type="text/css">
     <link rel="stylesheet" href="{{asset('home1/css/style.css')}}" type="text/css">
 
- 
+<style>
+
+
+body {
+    background-color:;
+     }
+</style>
 
    </head>
    <body>

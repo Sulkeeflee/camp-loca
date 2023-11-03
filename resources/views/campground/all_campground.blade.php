@@ -31,6 +31,25 @@
     <link rel="stylesheet" href="{{asset('home1/css/owl.carousel.min.css')}}" type="text/css">
     <link rel="stylesheet" href="{{asset('home1/css/slicknav.min.css')}}" type="text/css">
     <link rel="stylesheet" href="{{asset('home1/css/style.css')}}" type="text/css">
+    
+    <style>
+
+
+ /* CSS code for adding background to the .sidebar__item with "Category" */
+.sidebar__item {
+    background: #F2E9D8; /* สีพื้นหลังที่คุณต้องการใช้ */
+    padding: 20px; /* ปรับขนาดการเว้นระหว่างข้อความ */
+}
+
+body {
+    background-color:#F7F9F9;
+     }
+
+
+
+
+
+</style>
 
    </head>
    <body>
@@ -297,11 +316,7 @@
       @include('home.footer')
       <!-- footer end -->
       <div class="cpy_">
-         <p class="mx-auto">© 2021 All Rights Reserved By <a href="https://html.design/">Free Html Templates</a><br>
-         
-            Distributed By <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
-         
-         </p>
+         <p class="mx-auto">© 2023 All Rights camploca</p>
       </div>
       <!-- jQery -->
       <script src="home/js/jquery-3.4.1.min.js"></script>

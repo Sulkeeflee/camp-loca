@@ -1,7 +1,36 @@
+<style>
+  .product_section {
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0; /* Adjust padding as needed */
+    background-color: #F7F9F9 ;
+  
+    
+  }
+  /* Styling for the search form */
+ 
+
+  .search-button:hover {
+    background: black;
+  }
+
+  .heading h2 {
+    font-weight: bold; /* Add bold font weight */
+    text-align: center; /* Center align the text */
+    margin: 20px 0; /* Adjust margin as needed */
+    color: #284334;
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+   
+  }
+</style>
+
+
 
 <section class="product_section layout_padding">
          <div class="container">
-            <div class="heading_container heading_center">
+            <div class="heading">
                <h2>
                   Our <span>products</span>
                </h2>

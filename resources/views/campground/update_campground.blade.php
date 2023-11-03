@@ -13,6 +13,10 @@
     <title>Ogani | Template</title>
 
 
+<!-- Bootstarp css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
       <link rel="shortcut icon" href="images/favicon.png" type="">
       <title>Famms - Fashion HTML Template</title>
       <!-- bootstrap core css -->
@@ -23,14 +27,79 @@
       <link href="{{asset('home/css/style.css')}}" rel="stylesheet" />
       <!-- responsive style -->
       <link href="{{asset('home/css/responsive.css')}}" rel="stylesheet" />
-
-
+     
+  
       <style type="text/css">
+  /* Modernize the body styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
 
+  /* Modern button styles */
+  .btn-success {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
 
+  .btn-success:hover {
+    background-color: #2980b9;
+  }
 
+  .btn-secondary {
+    background-color: #777;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
 
+  .btn-secondary:hover {
+    background-color: #666;
+  }
+
+  /* Modern header styles with a gradient background */
+  h1.text-center {
+    background: linear-gradient(90deg, #4CAF50 0%, #333 100%);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+  }
+
+  /* Update form control styles with improved spacing and rounded borders */
+  .form-control {
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .form-control:focus {
+    outline: none;
+    border: 2px solid #3498db;
+  }
 </style>
+
+
+
+
+
+  
+
+
 
    </head>
    <body>
@@ -39,16 +108,17 @@
         @include('home.header')
          <!-- end header section -->
 
-         <h1 class="text-center">Edit Campground</h1>
-         <div class="row">
         
-        <div class="col-md-6 mt-3">
-           
-        <form action="{{url('/update_campground_confirm',$campground->id)}}" method="POST" enctype="multipart/form-data">
+
+
+         <div class="row">
+    <h1 class="text-center">Edit campground</h1>
+    <div class="col-6 offset-3">
+    <form action="{{url('/update_campground_confirm',$campground->id)}}" method="POST" enctype="multipart/form-data">
         
         @csrf
-  
-                <div class="mb-3">
+
+             <div class="mb-3">
                     <label class="form-label" for="title">Title</label>
                     <input class="form-control" type="text" name="title" placeholder="write a title" required="" value="{{$campground->title}}">
                     <div class="valid-feedback">
@@ -88,7 +158,7 @@
                         looks good!
                     </div>
                 </div>
-        </div>
+       
        
        
         <div class="col-md-6 mt-3">
@@ -97,28 +167,34 @@
                 <input class="form-control form-control-sm" id="formFileSm" type="file" name="image" multiple>
             </div>
             <div class="mb-3" style="display: inline-block;">
-                <% campground.image.forEach((img, i)=> { %>
+                
                     <img class="img-thumbnail" src="/campground/{{$campground->image}}" alt="">
                     <div class="form-check form-switch mb-3">
                         <input class="form-check-input" type="checkbox" id="image-<%= i %>" name="deleteImages[]"
                             value="<%= img.filename %>">
                         <label class="form-check-label" for="image-<%= i %>">Delete ??</label>
                     </div>
-                    <% }) %>
+                  
             </div>
 
         </div>
-       
-       
-       
 
         
-        <div class="mb-3 d-flex justify-content-center">
-            <button class="btn btn-dark">Edit Campground</button>
-        </div>
-        </form>
+
+    <div class="mb-3">
+        <button class="btn btn-success">Edit Campground</button>
+        <a class="btn btn-secondary" href="/campgrounds/<%= campground._id %> ">Back</a>
+    </div>
+    </form>
+    </div>
     </div>
 
+
+
+
+
+
+        
 
       <!-- footer start -->
       @include('home.footer')
