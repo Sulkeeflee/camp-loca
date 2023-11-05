@@ -10,11 +10,8 @@
       <meta name="description" content="" />
       <meta name="author" content="" />
 
-    <title>  camploca </title>
-
-
-      <link rel="shortcut icon" href="images/favicon.png" type="">
-      <title>Famms - Fashion HTML Template</title>
+      <link rel="shortcut icon" href="/images/logo.png" type="">
+      <title>camploca</title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}" />
       <!-- font awesome style -->
