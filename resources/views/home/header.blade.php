@@ -17,24 +17,19 @@
                            <a class="nav-link" href="{{url('/')}}">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="{{url('campgrounds')}}">Campground</a>
+                           <a class="nav-link" href="{{url('campgrounds')}}">Campgrounds</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="{{url('products')}}">Products</a>
+                           <a class="nav-link" href="{{url('products')}}">Shops</a>
                         </li>
-                       <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Pages <span class="caret"></span></a>
-                           <ul class="dropdown-menu">
-                              <li><a href="{{url('/')}}">About</a></li>
-                              <li><a href="{{url('/')}}">Testimonial</a></li>
-                           </ul>
+                        <li class="nav-item">
+                           <a class="nav-link" href="{{url('about')}}">About</a>
                         </li>
-                       
                        
                         <li class="nav-item">
-                           <a class="nav-link" href="{{url('/')}}">Contact</a>
+                           <a class="nav-link" href="{{url('contact')}}">Contact</a>
                         </li>
-
+ 
                         <li class="nav-item">
                            <a class="nav-link" href="{{url('show_cart')}}">
                               <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">

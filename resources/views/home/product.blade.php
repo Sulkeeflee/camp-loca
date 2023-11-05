@@ -97,15 +97,15 @@
                         @if($products->discount!=null)
 
 
-                        <h6 style="color: red">
-                        Discount price
-                        <br>
+                        <h6 style="color: black">
+                       
+                        
                         ฿{{$products->discount}}
                         </h6>
 
-                        <h6 style="text-decoration: line-through; color:blue">
-                         price
-                        <br>
+                        <h6 style="text-decoration: line-through; color:black">
+                        
+                        
                            ฿{{$products->price}}
  
                         </h6>
@@ -113,9 +113,9 @@
                         @else
                      
 
-                        <h6 style="color: blue">
-                        price
-                        <br>
+                        <h6 style="color: black">
+                        
+                        
                            ฿{{$products->price}}
                         </h6>
 

@@ -37,9 +37,20 @@
 <style>
 
 
+
+
+/* CSS code for adding background to the .sidebar__item with "Category" */
+.sidebar__item {
+   background: #F0F3F4 ; /* สีพื้นหลังที่คุณต้องการใช้ */
+   padding: 20px; /* ปรับขนาดการเว้นระหว่างข้อความ */
+}
+
 body {
-    background-color:;
-     }
+   background-color:#F7F9F9;
+    }
+
+
+
 </style>
 
    </head>
@@ -57,25 +68,7 @@ body {
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
-                    <div class="hero__categories">
-                        <div class="hero__categories__all">
-                            <i class="fa fa-bars"></i>
-                            <span>All departments</span>
-                        </div>
-                        <ul>
-                            <li><a href="#">Fresh Meat</a></li>
-                            <li><a href="#">Vegetables</a></li>
-                            <li><a href="#">Fruit & Nut Gifts</a></li>
-                            <li><a href="#">Fresh Berries</a></li>
-                            <li><a href="#">Ocean Foods</a></li>
-                            <li><a href="#">Butter & Eggs</a></li>
-                            <li><a href="#">Fastfood</a></li>
-                            <li><a href="#">Fresh Onion</a></li>
-                            <li><a href="#">Papayaya & Crisps</a></li>
-                            <li><a href="#">Oatmeal</a></li>
-                            <li><a href="#">Fresh Bananas</a></li>
-                        </ul>
-                    </div>
+                    
                 </div>
                 <div class="col-lg-9">
                     <div class="hero__search">
@@ -106,7 +99,7 @@ body {
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="/images/breadcrumb.jpg">
+    <section class="breadcrumb-section set-bg" data-setbg="/images/breadcrumb1.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">

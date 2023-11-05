@@ -8,6 +8,11 @@ use App\Http\Controller\AdminController;
 
 use App\Http\Controllers\CampgroundController;
 
+use App\Http\Controllers\ContactController;
+
+use App\Http\Controllers\AboutController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -121,6 +126,16 @@ Route::get('/deletecampground/{id}', [App\Http\Controllers\CampgroundController:
 Route::get('/updatecampground/{id}', [App\Http\Controllers\CampgroundController::class, 'update_campground']);
 
 Route::post('/update_campground_confirm/{id}', [App\Http\Controllers\CampgroundController::class, 'update_campground_confirm']);
+
+
+
+
+
+Route::get('/contact', [App\Http\Controllers\ContactController::class, 'contact']);
+
+
+
+Route::get('/about', [App\Http\Controllers\AboutController::class, 'about']);
 
 
 

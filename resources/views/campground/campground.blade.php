@@ -104,7 +104,7 @@
                     <div class="row">
 
                     <div class="card-body">
-                <a class="card-link btn btn-warning" href="{{url('viewcampground')}}">Add Campground</a>
+                <a class="btn btn-dark" href="{{url('viewcampground')}}">Add Campground</a>
                
             </div>
                     

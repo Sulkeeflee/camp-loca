@@ -1,7 +1,24 @@
+
+      <!-- bootstrap core css -->
+      <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}" />
+      <!-- font awesome style -->
+      <link href="{{asset('home/css/font-awesome.min.css')}}" rel="stylesheet" />
+      <!-- Custom styles for this template -->
+      <link href="{{asset('home/css/style.css')}}" rel="stylesheet" />
+      <!-- responsive style -->
+      <link href="{{asset('home/css/responsive.css')}}" rel="stylesheet" />
+
+
+
+    <!-- header section strats -->
+    @include('home.header')
+         <!-- end header section -->
+
+         
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <x-jet-authentication-card-logo />
+        <a class="navbar-brand" href="{{url('/')}}"><img width="130" src="/images/logo.png" alt="#" /></a>
         </x-slot>
 
         <x-jet-validation-errors class="mb-4" />
