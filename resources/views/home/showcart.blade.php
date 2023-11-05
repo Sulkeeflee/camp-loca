@@ -29,8 +29,63 @@
     <link rel="stylesheet" href="{{asset('home1/css/owl.carousel.min.css')}}" type="text/css">
     <link rel="stylesheet" href="{{asset('home1/css/slicknav.min.css')}}" type="text/css">
     <link rel="stylesheet" href="{{asset('home1/css/style.css')}}" type="text/css">
+    
+    <style>
 
-      
+    .shoping__cart__table table thead th {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1c1c1c;
+    padding-bottom: 20px;
+    background-color: #99A686;
+    margin-top: 10px;
+    padding: 8px 16px;
+
+} 
+
+.shoping-cart {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: white;
+}
+
+.breadcrumb-section {
+    display: flex;
+    background: #174025;
+    align-items: center;
+    padding: 45px 0 40px;
+}
+
+.shoping__cart__table table tbody tr td.shoping__cart__item {
+    width: 630px;
+    text-align: left;
+
+    
+}
+.shoping__cart__table table tbody tr td {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #CCD1D1 ;
+
+    
+}
+
+.icon_close{
+    font-family: 'ElegantIcons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    background: red;
+ 
+}
+    
+
+</style>
+
    </head>
    <body>
       <div class="hero_area">
@@ -38,7 +93,7 @@
          @include('home.header')
          <!-- end header section -->
       <!-- Breadcrumb Section Begin -->
-      <section class="breadcrumb-section set-bg" data-setbg="/images/breadcrumb.jpg">
+      <section class="breadcrumb-section set-bg" data-setbg="">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">

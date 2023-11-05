@@ -10,9 +10,10 @@
   }
 
   h4 {
-    color: white;
+    color: #5E7855;
+    font-weight: 400;
     margin-bottom: 30px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+   
 }
 
 
@@ -30,6 +31,7 @@
     color: white;
     transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
     font-weight: bold;
+    border-radius: 30px;
   }
 
   .btn1:hover {
@@ -47,6 +49,8 @@
     width: 50%; /* Adjust the width as needed */
     height: auto; /* Maintain the aspect ratio */
   }
+
+
 </style>
 
 

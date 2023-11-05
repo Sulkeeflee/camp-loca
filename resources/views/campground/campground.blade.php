@@ -1,7 +1,4 @@
-
-
-  
-    
+   
     <style type="text/css">
 
 
@@ -47,27 +44,23 @@
 }
 
 /* "View" button */
-.btn-dark {
-    background-color: #343a40;
-    color: #fff;
-    text-decoration: none;
-    padding: 8px 16px;
-    border-radius: 5px;
-    display: inline-block;
-    margin-top: 10px;
-}
+
 
 .btn-dark:hover {
     background-color: #212529;
 }
 
-/* Media query for responsiveness */
-@media (max-width: 768px) {
-    .card {
-        width: 100%;
-    }
+.btn-dark {
+    color: #fff;
+    background-color: #99A686;
+    border-color: #99A686;
 }
 
+.btn-dark:hover {
+    background-color: #5D794E; /* New background color on hover */
+    border-color: #5D794E; /* New border color on hover */
+    /* Additional styles on hover if needed */
+}
 </style>
 
      
@@ -104,7 +97,7 @@
                     <div class="row">
 
                     <div class="card-body">
-                <a class="card-link btn btn-warning" href="{{url('viewcampground')}}">Add Campground</a>
+                <a class="card-link btn btn-war" href="{{url('viewcampground')}}">Add Campground</a>
                
             </div>
                     

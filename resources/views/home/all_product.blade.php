@@ -37,9 +37,107 @@
 <style>
 
 
-body {
-    background-color:;
+.sidebar__item {
+    background: #FBFCFC; /* สีพื้นหลังที่คุณต้องการใช้ */
+    padding: 20px; /* ปรับขนาดการเว้นระหว่างข้อความ */
+    }
+
+ body {
+    background-color:#F7F9F9;
      }
+
+.breadcrumb__text h2 {
+    font-size: 46px;
+    color: white;
+    font-weight: 700;
+}
+
+.card {
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background: white;
+}
+.breadcrumb-section {
+    display: flex;
+    background: #174025;
+    align-items: center;
+    padding: 45px 0 40px;
+   
+}
+
+.spad {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #F8EBD8;
+}
+
+.btn{
+    background-color: #174025;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-dark {
+    background-color: #99A686;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-war {
+    color: #fff;
+    background-color:#174025;
+    padding: 10px 20px; 
+}
+
+.btn-war:hover {
+    background-color: #5D794E; 
+ 
+}
+.product__pagination a, .blog__pagination a {
+   
+    background-color: #99A686;
+    color: #fff;
+
+}
+
+.product__pagination a:hover,
+.blog__pagination a:hover {
+    background-color: #5D794E; /* New background color on hover */
+    /* Additional styles on hover if needed */
+}
+
+.hero__categories__all {
+    background: #174025;
+    position: relative;
+    padding: 10px 25px 10px 40px;
+    cursor: pointer;
+}
+
+.hero__search__form {
+    width: 485px;
+    background: #EAEDED ;
+}
+
+.product_section .options .option1 {
+    background-color: #174025;
+    border: 1px solid #b2b2b2;
+    color: #ffffff;
+}
+
+
+
 </style>
 
    </head>
@@ -105,13 +203,13 @@ body {
     </section>
     <!-- Hero Section End -->
 
-    <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="/images/breadcrumb.jpg">
+    <!-- Breadcrumb Section Begin img-->
+    <section class="breadcrumb-section set-bg" data-setbg="">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Organi Shop</h2>
+                        <h2>View Our product</h2>
                         <div class="breadcrumb__option">
                             <a href="{{url('/')}}">Home</a>
                             <span>Shop</span>

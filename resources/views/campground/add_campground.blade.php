@@ -10,15 +10,15 @@
       <meta name="description" content="" />
       <meta name="author" content="" />
 
-    <title>Ogani | Template</title>
+    <title>camploca</title>
 
      <!-- Bootstarp css -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   
 
-      <link rel="shortcut icon" href="images/favicon.png" type="">
-      <title>Famms - Fashion HTML Template</title>
+      <link rel="shortcut icon" href="images/logo.png" type="">
+      <title>camploca</title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}" />
       <!-- font awesome style -->
@@ -30,67 +30,67 @@
 
 
       <style type="text/css">
-  /* Modernize the body styles */
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 0;
-  }
+ 
 
   /* Modern button styles */
   .btn-success {
-    background-color: #3498db;
+    background-color: #99A686;
     color: #fff;
     padding: 12px 24px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+    border-radius: 30px;
+    font-weight: 700;
   }
 
   .btn-success:hover {
-    background-color: #2980b9;
+    background-color: #F2A341;
   }
 
   .btn-secondary {
-    background-color: #777;
+    background-color: #99A686;
     color: #fff;
     padding: 12px 24px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+    border-radius: 30px;
+    font-weight: 700;
   }
 
   .btn-secondary:hover {
-    background-color: #666;
+    background-color: #F2A341;
   }
 
   /* Modern header styles with a gradient background */
   h1.text-center {
-    background: linear-gradient(90deg, #4CAF50 0%, #333 100%);
+    background: #174025;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 25px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     display: inline-block;
-  }
+}
 
-  /* Update form control styles with improved spacing and rounded borders */
-  .form-control {
-    border: 2px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-  }
 
-  .form-control:focus {
-    outline: none;
-    border: 2px solid #3498db;
-  }
+  form {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    margin-top:15px;
+    padding: 12px 24px;
+    
+    
+}
+
+
+
+
+
+
 </style>
 
 
@@ -160,6 +160,8 @@
        <option value="{{$catagory->catagory_name}}">{{$catagory->catagory_name}}</option> 
        
        @endforeach 
+       
+                </form>
 
                         
                     </select>
@@ -177,7 +179,7 @@
                 <button class="btn btn-success">Add campground</button>
                 <a class="btn btn-secondary" href="/campgrounds">All campgrounds</a>
             </div>
-        </form>
+       
 
     </div>
 </div>

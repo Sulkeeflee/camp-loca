@@ -9,8 +9,8 @@
       <meta name="keywords" content="" />
       <meta name="description" content="" />
       <meta name="author" content="" />
-      <link rel="shortcut icon" href="images/favicon.png" type="">
-      <title>Famms - Fashion HTML Template</title>
+      <link rel="shortcut icon" href="images/logo.png" type="">
+      <title>camploca</title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}" />
       <!-- font awesome style -->
@@ -137,7 +137,6 @@
   font-size: 0.1em;
   color: transparent;
   cursor: pointer;
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAA8CAMAAABGivqtAAAAxlBMVEUAAACZmZn2viTHuJ72viOampqampr1viSampr3vySampqdnZ34wiX1vSSampr1vSOZmZmampr1viT2vSOampr2viT2viSampr2viSampr2vyX4vyWbm5v3vSSdnZ32wSadnZ36wCWcnJyZmZn/wSr/2ySampr2vSP2viSZmZn2vSSZmZn2vST2viSampr2viSbm5ubm5uZmZn1vSSampqbm5v2vSWampqampr3vSf5wiT5vyagoKD/xCmkpKT/yCSZmZn1vSO4V2dEAAAAQHRSTlMA+vsG9fO6uqdgRSIi7+3q39XVqZWVgnJyX09HPDw1NTAwKRkYB+jh3L6+srKijY2Ef2lpYllZUU5CKigWFQ4Oneh1twAAAZlJREFUOMuV0mdzAiEQBmDgWq4YTWIvKRqT2Htv8P//VJCTGfYQZnw/3fJ4tyO76KE0m1b2fZu+U/pu4QGlA7N+Up5PIz9d+cmkbSrSNr9seT3GKeNYIyeO5j16S28exY5suK0U/QKmmeCCX6xs22hJLVkitMImxCvEs8EG3SCRCN/ViFPqnq5epIzZ07QJJvkM9Tkz1xnkmXbfSvR7f4H8AtXBkLGj74mMvjM1+VHZpAZ4LM4K/LBWEI9jwP71v1ZEQ6dyvQMf8A/1pmdZnKce/VH1iIsdte4U8VEtY23xOujxtFpWDgKbfjD2YeEhY0OzfjGeLyO/XfnNpAcmcjDwKOXRfU1IyiTRyEkaiz67pb9oJHJb9vVqKfgjLBPyF5Sq9T0KmSUhQmtiQrJGPHVi0DoSabj31G2gW3buHd0pY85lNdcCk8xlNDPXMuSyNiwl+theIb9C7RLIpKvviYy+M6H8qGwSAp6Is19+GP6KxwnggJ/kq6Jht5rnRQA4z9zyRRaXssvyqp5I6Vutv0vkpJaJtnjpz/8B19ytIayazLoAAAAASUVORK5CYII=");
   background-repeat: no-repeat;
   background-position: 0 -30px;
 }
@@ -213,14 +212,33 @@
   margin-right: 10px;
 }
 
-.btn-dark {
-  background-color: #343a40;
-  color: #fff;
+.btn-dar { 
+    color: #fff;
+    background-color:#99A686;
+    padding: 10px 20px; 
+    border-radius: 30px;
+    font-weight: 700;
 }
 
-.btn-danger {
-  background-color: #dc3545;
-  color: #fff;
+
+
+.btn-dar:hover {
+  background-color: #F2A341; 
+    color: #fff;
+ 
+}
+
+.btn-dange {
+  background-color:#99A686;
+    padding: 10px 20px; 
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn-dange:hover {
+  background-color: #F2A341; 
+    color: #fff;
+ 
 }
 
 /* Style the map */
@@ -274,7 +292,7 @@
 
 /* Style the delete button in the review card */
 .btn-sm.btn-danger {
-  background-color: #dc3545;
+  background-color: #174025;
   color: #fff;
 }
 
@@ -289,6 +307,8 @@
     width: 100%;
   }
 }
+
+
 
 </style>
 
@@ -337,11 +357,11 @@
                 Featured in: {{$campground->catagory}}
             </div>
             <div class="card-body">
-                <a class="card-link btn btn-dark" href="{{url('updatecampground',$campground->id)}}">Edit Campground</a>
+                <a class="card-link btn btn-dar" href="{{url('updatecampground',$campground->id)}}">Edit Campground</a>
                 
                
                 <form class="d-inline">
-                <a class="btn btn-danger" onclick="return confirm('Are You Sure it Delete this')" href="{{url('deletecampground',$campground->id)}}">Delete Campground</a>
+                <a class="btn btn-dange" onclick="return confirm('Are You Sure it Delete this')" href="{{url('deletecampground',$campground->id)}}">Delete Campground</a>
                 </form>
             </div>
            
@@ -398,6 +418,9 @@
          
          </p>
       </div>
+
+
+      
       <!-- jQery -->
       <script src="home/js/jquery-3.4.1.min.js"></script>
       <!-- popper js -->
