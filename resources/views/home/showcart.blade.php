@@ -10,8 +10,8 @@
       <meta name="keywords" content="" />
       <meta name="description" content="" />
       <meta name="author" content="" />
-      <link rel="shortcut icon" href="images/favicon.png" type="">
-      <title>Famms - Fashion HTML Template</title>
+      <link rel="shortcut icon" href="/images/logo1.jpg" type="">
+      <title>camploca</title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}" />
       <!-- font awesome style -->
@@ -118,7 +118,7 @@
                         <a href="{{url('products')}}" class="primary-btn cart-btn">CONTINUE SHOPPING</a>
                         <a href="{{url('show_order')}}" class="primary-btn cart-btn cart-btn-right"><span class="icon_loading"></span>
                             Order</a>
-                    </div>
+                    </div> 
                 </div>
                 <div class="col-lg-6">
                     <div class="shoping__continue">

@@ -13,7 +13,7 @@
    
 
 
-      <link rel="shortcut icon" href="/images/logo1.png" type="">
+      <link rel="shortcut icon" href="/images/logo1.jpg" type="">
       <title>camploca</title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}" />

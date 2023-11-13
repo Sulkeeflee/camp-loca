@@ -119,7 +119,7 @@
            <h2 class="h2_font">Add catagory Campground</h2>
        
             <form action="{{url('/add_catagory_campground')}}" method="POST">
-
+ 
 
             @csrf
             

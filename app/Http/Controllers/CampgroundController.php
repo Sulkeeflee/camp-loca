@@ -7,6 +7,9 @@ use Illuminate\Support\Facades\Auth;
 use App\Models\Campground;
 use App\Models\catagory;
 use App\Models\catagory_campground;
+use App\Models\Review;
+
+
 
 class CampgroundController extends Controller
 {
@@ -20,13 +23,19 @@ class CampgroundController extends Controller
         return view( 'campground.all_campground', compact('campground', 'catagory'));
 
        }
-
+    
     
     public function campground_detail($id)
     {  
 
         $campground=campground::find($id) ;
-        return view('campground.campground_detail',compact('campground'));          
+        $reviews = Review::where('campground_id', $id)->get();
+
+        
+
+       
+
+        return view('campground.campground_detail',compact('campground', 'reviews'));          
     
     }
 
@@ -81,7 +90,7 @@ class CampgroundController extends Controller
     {
         if(Auth::id())
         {
-       
+
       $campground=campground::find($id);
       $campground->delete();
      
@@ -152,10 +161,7 @@ return redirect('login');
         }
 
        
-      
-
     }
-
 
 
 

@@ -12,6 +12,9 @@ use App\Http\Controllers\ContactController;
 
 use App\Http\Controllers\AboutController;
 
+use App\Http\Controllers\ReviewController;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -131,6 +134,10 @@ Route::post('/update_campground_confirm/{id}', [App\Http\Controllers\CampgroundC
 
 
 
+
+
+
+
 Route::get('/contact', [App\Http\Controllers\ContactController::class, 'contact']);
 
 
@@ -139,13 +146,8 @@ Route::get('/about', [App\Http\Controllers\AboutController::class, 'about']);
 
 
 
+Route::post('/campgrounds/{campgroundId}/reviews', [ReviewController::class, 'create'])->name('reviews.create');
 
- 
-
-
-
-
-
-
+Route::delete('/campgrounds/{campgroundId}/reviews/{reviewId}', [ReviewController::class, 'delete'])->name('reviews.destroy');
 
 

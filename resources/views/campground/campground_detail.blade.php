@@ -9,8 +9,8 @@
       <meta name="keywords" content="" />
       <meta name="description" content="" />
       <meta name="author" content="" />
-      <link rel="shortcut icon" href="images/favicon.png" type="">
-      <title>Famms - Fashion HTML Template</title>
+      <link rel="shortcut icon" href="/images/logo1.jpg" type="">
+      <title>camploca</title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}" />
       <!-- font awesome style -->
@@ -299,6 +299,8 @@
          <!-- header section strats -->
         @include('home.header')
          <!-- end header section -->
+
+         
       
      
          <div class="row">
@@ -344,50 +346,81 @@
                 <a class="btn btn-danger" onclick="return confirm('Are You Sure it Delete this')" href="{{url('deletecampground',$campground->id)}}">Delete Campground</a>
                 </form>
             </div>
+
+            
            
         </div>
     </div>
+    
     <div class="col-md-6">
-        <div id="map" class="mb-4" style="width: 100%; height: 300px;"></div>
-        <h2>Leave a Review</h2>
-        <form  action="/campgrounds/<%= campground._id %>/reviews" method="POST" novalidate class="mb-3 validated-form">
-            <div class="mt-3">
-                <fieldset class="starability-heart">
-                    <input type="radio" id="no-rate" class="input-no-rate" name="review[rating]" value="1" checked
-                        aria-label="No rating." />
-                    <input type="radio" id="first-rate1" name="review[rating]" value="1" />
-                    <label for="first-rate1" title="Terrible">1 star</label>
-                    <input type="radio" id="first-rate2" name="review[rating]" value="2" />
-                    <label for="first-rate2" title="Not good">2 stars</label>
-                    <input type="radio" id="first-rate3" name="review[rating]" value="3" />
-                    <label for="first-rate3" title="Average">3 stars</label>
-                    <input type="radio" id="first-rate4" name="review[rating]" value="4" />
-                    <label for="first-rate4" title="Very good">4 stars</label>
-                    <input type="radio" id="first-rate5" name="review[rating]" value="5" />
-                    <label for="first-rate5" title="Amazing">5 stars</label>
-                </fieldset>
-            </div>
-            <div class="textarea mb-3">
-                <label class="form-label" for="body">Review</label>
-                <textarea class="form-control" name="review[body]" id="body" cols="30" rows="3" required></textarea>
-                <div class="valid-feedback">
-                    Looks good!
-                </div>
-            </div>
-            <button class="btn btn-dark">Submit</button>
-        </form>
-        <div class="card mb-3">
-            <div class="card-body">
-                <h5 class="card-text"></h5>
-                <p class="starability-result card-text" data-rating="">Rated:</p>
-                <p class="card-text">Review:</p>
-                <form action="" method="POST">
-                    <button class="btn btn-sm btn-danger">Delete</button>
-                </form>
-            </div>
+    <div id="map" class="mb-4" style="width: 100%; height: 300px;"></div>
+    
+    
+    <h2>Leave a Review</h2>
+
+
+<form class="needs-validation" action="{{ route('reviews.create', ['campgroundId' => $campground->id]) }}" method="POST" novalidate>
+    @csrf
+
+    <div class="mt-3">
+            <fieldset class="starability-heart">
+                <input type="radio" id="no-rate" class="input-no-rate" name="review[rating]" value="1" checked
+                    aria-label="No rating." />
+                <input type="radio" id="first-rate1" name="review[rating]" value="1" />
+                <label for="first-rate1" title="Terrible">1 star</label>
+                <input type="radio" id="first-rate2" name="review[rating]" value="2" />
+                <label for="first-rate2" title="Not good">2 stars</label>
+                <input type="radio" id="first-rate3" name="review[rating]" value="3" />
+                <label for="first-rate3" title="Average">3 stars</label>
+                <input type="radio" id="first-rate4" name="review[rating]" value="4" />
+                <label for="first-rate4" title="Very good">4 stars</label>
+                <input type="radio" id="first-rate5" name="review[rating]" value="5" />
+                <label for="first-rate5" title="Amazing">5 stars</label>
+            </fieldset>
+        </div>
+
+    <div class="textarea mb-3">
+        <label class="form-label" for="body">Review</label>
+        <textarea class="form-control" name="review[body]" id="body" cols="30" rows="3" required></textarea>
+        <div class="valid-feedback">
+            Looks good!
         </div>
     </div>
+    <button class="btn btn-dark">Submit</button>
+</form>
+    
+   
+<!-- Display Existing Reviews -->
+
+<!-- Display Existing Reviews -->
+<!-- Display Existing Reviews -->
+@foreach ($reviews as $review)
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-text">{{ $review->user->name }}</h5>
+            <p class="starability-result card-text" data-rating="{{ $review->rating }}">Rated: {{ $review->rating }} stars</p>
+            <p class="card-text">{{ $review->body }}</p>
+            @auth
+            <form action="{{ route('reviews.destroy', ['campgroundId' => $campground->id, 'reviewId' => $review->id]) }}" method="POST">
+    @csrf
+    @method('DELETE')
+    <button class="btn btn-sm btn-danger" type="submit">Delete</button>
+</form>
+            @endauth
+        </div>
+    </div>
+@endforeach
+
+
+
+
+
 </div>
+</div>
+
+
+
+
 
  
      
