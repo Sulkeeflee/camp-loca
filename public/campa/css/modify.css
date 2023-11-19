@@ -1,0 +1,4339 @@
+.pin-location {
+    position: absolute;
+    top: 45%;
+    left: 63%;
+    -webkit-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+    border-radius: 20px;
+    min-width: 60px;
+    height: 33px;
+    line-height: 27px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    font-family: "DMSans";
+    font-weight: 500;
+    -webkit-transition: unset;
+    transition: unset;
+    border: none;
+    outline: 0;
+    text-align: center;
+    line-height: 33px;
+    border: inherit;
+    opacity: 1 !important;
+}
+
+
+/* gmap */
+
+.gm-style .gm-style-iw-c {
+    border-radius: 20px;
+    padding: 0;
+}
+
+.gm-ui-hover-effect {
+    top: 10px !important;
+    right: 10px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: 2px solid #fff !important;
+    /* opacity: 1 !important; */
+}
+
+.gm-ui-hover-effect img {
+    filter: brightness(0) invert(1);
+}
+
+.gm-style .gm-style-iw-d {
+    overflow: inherit !important;
+}
+
+#sticky-map .card {
+    margin: 0;
+}
+
+#sticky-map .card .favorite {
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    left: 10px;
+    right: inherit;
+}
+
+.profile-page .wrapper-profile .img-profile .edit-pic .custom-file-label:after {
+    display: none;
+}
+
+.profile-page .wrapper-profile .b-rank .icon-rank img {
+    max-width: 75px;
+}
+
+.site-header .dropdown-menu.dropdown-member {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-page .form-default .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #282828;
+}
+
+.profile-page .form-default .form-control-feedback {
+    top: 20px;
+}
+
+.search-page .dropdown-menu {
+    min-width: 80px;
+    transform: inherit !important;
+}
+
+
+/* marker */
+
+.popover-detail {
+    right: inherit;
+    bottom: 50px !important;
+}
+
+.easypin-marker {
+    width: 30px;
+    height: 30px;
+}
+
+.camp-detail-page .tent-site .cover {
+    padding-bottom: 0;
+    z-index: 99;
+}
+
+.camp-detail-page .detail-select li.allow .wrapper .box:before {
+    display: none;
+}
+
+.detail-select .wrapper .action {
+    margin: 0 10px;
+}
+
+.detail-select .wrapper .btn {
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    height: 58px;
+    line-height: 58px;
+    background-color: #637B69;
+    color: #fff;
+}
+
+.detail-select .wrapper .btn:hover {
+    background-color: #EBEBEB;
+    color: #282828;
+}
+
+.card .head {
+    height: 100%;
+}
+
+.camp-detail-page .select-camp-area {
+    border-radius: 20px;
+}
+
+.profile-detail .card.-favorite .body {
+    height: 100%;
+}
+
+.booking-sum {
+    border-radius: 20px;
+}
+
+.bookong-conclude .wrapper {
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1660px) {
+    .profile-page .form-default .form-control-feedback {
+        top: 19px;
+    }
+}
+
+
+/* home */
+
+.wg-popular .wrapper-slide .body .title {
+    min-height: 2em;
+}
+
+
+/* .topgraphic .search-form .label-search .txt-key .form-control::placeholder{font-family: "DMSans", sans-serif;} */
+
+.topgraphic .search-form .label-search .txt-key .form-control {
+    font-family: "Pridi", sans-serif;
+}
+
+.wrapper-slide .body .title.text-limit {
+    min-height: 75px;
+}
+
+.wrapper-slide .body .title .rate {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.card .body .rate {
+    opacity: 0;
+}
+
+
+/* search */
+
+.site-header .search-form .txt-key {
+    width: 100%;
+}
+
+.site-header .search-form .txt-key li {
+    width: inherit;
+}
+
+.site-header .search-form .txt-key .form-control {
+    padding: 0 15px;
+}
+
+.site-header .search-form .txt-key .form-control.add-guest {
+    min-width: 140px;
+}
+
+.search-page .dropdown-menu {
+    -webkit-transform: translate(-80px, 10px) !important;
+    transform: translate(-80px, 10px) !important;
+}
+
+
+/* camp detail */
+
+.camp-detail-page .detail-select .lock {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.camp-detail-page .detail-select .wrapper .box .cover {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.camp-detail-page .detail-select .wrapper .box img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+
+.camp-detail-page .detail-select .wrapper .desc .sp-camp {
+    min-width: 210px;
+}
+
+.camp-detail-page .detail-select .wrapper .size-camp {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.camp-detail-page .detail-select .wrapper .size-camp span {
+    margin-left: 4px;
+    padding-left: 3px;
+}
+
+.camp-detail-page .detail-select .wrapper .price-camp {
+    padding: 0;
+}
+
+.camp-detail-page .detail-select .guest-detail-list li {
+    width: calc(100% / 4);
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.camp-detail-page .detail-select .guest-detail-list .text {
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.camp-detail-page .detail-select .guest-detail-list .number {
+    font-family: "DMSans", sans-serif;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.camp-detail-page .detail-select .guest-detail-list .btn {
+    min-width: auto;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+}
+
+.camp-detail-page .detail-select .guest-detail-list .note {
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 9px;
+    padding-left: 130px;
+}
+
+
+/* .camp-detail-page .detail-select .guest-detail-list li .wrapper .btn{width: 20px; height: 20px;} */
+
+.camp-detail-page .select-camp-area .h-title {
+    padding-bottom: 10px;
+}
+
+.dropdown-menu .link img {
+    filter: brightness(0);
+    transition: all 200ms;
+}
+
+.dropdown-menu .link:hover img {
+    filter: brightness(1);
+}
+
+.closedata {
+    margin-top: -13px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.camp-detail-page .tent-site .cover.-img {
+    padding-bottom: 56%;
+}
+
+.camp-detail-page #sticky-booking {
+    z-index: 99;
+    height: 0px !important;
+}
+
+
+/* booking */
+
+.booking-detail .action.-should.-ii {
+    margin-top: 20px;
+}
+
+.booking-detail .action.-should.-ii .link {
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: underline;
+    color: #282828;
+}
+
+.translate .goog-te-gadget-simple {
+    border: none;
+}
+
+.translate .goog-te-gadget img {
+    display: none;
+}
+
+.goog-te-menu-frame {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.goog-te-gadget-simple {
+    background-color: transparent !important;
+}
+
+.lang .dropdown-item img {
+    filter: brightness(1) invert(0);
+    transition: all 200ms;
+}
+
+.lang .dropdown-item:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.panorama {
+    width: 100%;
+    float: left;
+    margin-top: -5px;
+    height: 700px;
+    position: relative;
+}
+
+.pv-inner.pv-animating {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.modal.-panorama .modal-body {
+    padding-bottom: 0;
+}
+
+.camp-detail-page {
+    padding-bottom: 0;
+}
+
+
+/* .detail-select{min-height: 572px;} */
+
+.site-header .b-right .member.active:before {
+    z-index: 1;
+}
+
+.b-right .member .cover {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.b-right .member .cover img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1660px) {
+    .camp-detail-page .detail-select .wrapper .box {
+        width: 66px;
+        height: 66px;
+    }
+    .camp-detail-page .detail-select .guest-detail-list .note {
+        padding-left: 0;
+    }
+    .camp-detail-page .desc-camp .name {
+        font-size: 18px;
+    }
+    .camp-detail-page .desc-camp .desc {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .site-header .brand img {
+        width: 120px;
+    }
+    .site-header .search-form .txt-key {
+        padding: 10px;
+        height: 40px;
+    }
+    .site-header .search-form .txt-key .item-list {
+        margin-top: -5px;
+    }
+    .site-header .search-form .txt-key .btn-search {
+        top: 0;
+    }
+    .card .head .cover {
+        padding-bottom: 120%;
+    }
+    .wrapper-slide .body .title.text-limit {
+        min-height: 2em;
+    }
+    .camp-detail-page .detail-select .wrapper .desc .sp-camp {
+        min-width: auto;
+    }
+    .camp-detail-page .detail-select .wrapper .price-camp {
+        font-size: 18px;
+    }
+    .camp-detail-page .detail-select .wrapper .price-camp span {
+        font-size: 14px;
+    }
+    .detail-select .wrapper .btn {
+        font-size: 16px;
+        height: 45px;
+        line-height: 45px;
+        min-width: 100px;
+    }
+    .camp-detail-page .desc-camp .name {
+        font-size: 16px;
+    }
+    .camp-detail-page .desc-camp .desc {
+        font-size: 16px;
+    }
+    .modal.-should .modal-title {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .panorama {
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .modal.-panorama .modal-body {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .site-header .brand img {
+        width: 110px;
+    }
+    .camp-detail-page .detail-select .lock {
+        position: absolute;
+        top: 0;
+        right: -90px;
+        display: block;
+    }
+    .panorama {
+        height: 260px;
+    }
+}
+
+
+/* edit 06 07 2021 */
+
+.site-header .b-right .item-list {
+    margin: 0 -40px;
+}
+
+.site-header .b-right li:nth-child(1) {
+    padding-left: 0;
+}
+
+.daterangepicker td.disabled,
+.daterangepicker option.disabled {
+    text-decoration: inherit;
+}
+
+@media screen and (max-width: 1660px) {
+    .site-header .b-right li .link img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .site-header .b-right li .link img {
+        width: 100%;
+    }
+    .site-header .b-right .item-list {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .b-right .member .cover {
+        width: 26px;
+        height: 26px;
+    }
+    .site-header .b-right li .link {
+        font-size: 14px;
+    }
+}
+
+
+/* end edit 06 07 2021 */
+
+
+/* edit 12 07 2021 */
+
+.site-header .b-right li .login-header {
+    background-color: #637b69;
+    font-family: "Pridi", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    min-width: 136px;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 24px;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.site-header .b-right li .login-header:hover {
+    background-color: #282828;
+}
+
+.site-header .b-right .rl-block {
+    display: flex;
+}
+
+.site-header .b-right .rl-block {
+    margin: 0 -5px;
+}
+
+.site-header .b-right .rl-block>div {
+    padding: 0 5px;
+}
+
+.profile-page .menu-profile li.active,
+.profile-page .menu-profile li:hover {
+    border-radius: 20px;
+}
+
+.profile-page.awards .progress-rank li:after,
+.profile-page.awards .progress-rank li.active:after {
+    display: none;
+}
+
+.profile-page.awards .progress-rank.style2 li {
+    width: calc(100% / 2);
+}
+
+.profile-page.awards .progress-rank.style3 li {
+    width: calc(100% / 3);
+}
+
+.profile-page.awards .progress-rank.style4 li {
+    width: calc(100% / 4);
+}
+
+.modal.-should .card {
+    padding-left: 0;
+}
+
+.profile-page.awards .progress-rank .desc .text {
+    font-family: "DMSans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.profile-page.awards .progress-rank li.active .desc .text {
+    color: #af4922;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.profile-page.awards .progress-rank li .main {
+    filter: inherit;
+}
+
+.card .body .desc.text-limit {
+    min-height: 120px;
+}
+
+@media screen and (max-width: 1660px) {
+    .site-header .b-right li .login-header {
+        font-size: 16px;
+    }
+    .card .body .desc.text-limit {
+        min-height: 80px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .site-header,
+    .site-header.tiny,
+    .site-header.reset-header.tiny,
+    .site-header.reset-header {
+        height: 90px;
+    }
+    .site-header .b-right .item-list {
+        display: flex;
+        align-items: center;
+    }
+    .site-header .b-right .rl-block {
+        display: block;
+    }
+    .site-header .b-right li .signup,
+    .site-header .b-right li .login-header {
+        font-size: 14px;
+        height: 30px;
+        padding: 0;
+        line-height: 30px;
+        min-width: 116px;
+    }
+    .site-header .b-right li:first-child:before {
+        height: 72%;
+    }
+    .about-page,
+    .help-page,
+    .profile-page,
+    .camp-detail-page {
+        margin-top: 90px;
+    }
+    .card .head .cover {
+        padding-bottom: 50%;
+    }
+}
+
+
+/* end edit 12 07 2021 */
+
+
+/* edit 20 07 2021 */
+
+.modal.-camp-detail .modal-header {
+    justify-content: flex-end;
+}
+
+.modal.-camp-detail .modal-body {
+    padding-top: 26px;
+}
+
+.modal.-camp-detail .modal-body .h-title {
+    font-family: "Pridi", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1em;
+    font-size: 30px;
+}
+
+.modal.-camp-detail .modal-body .content {
+    padding-bottom: 20px;
+}
+
+.modal.-camp-detail .modal-body .desc {
+    font-family: "Pridi", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2em;
+    padding-top: 15px;
+}
+
+.detail-select .wrapper .sp-camp .action {
+    margin: 0;
+    margin-top: 15px;
+}
+
+.detail-select .wrapper .sp-camp .action .link {
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #282828;
+}
+
+.modal.-payment-coupon .modal-header {
+    justify-content: flex-end;
+}
+
+.modal.-payment-coupon .modal-body {
+    padding-top: 26px;
+}
+
+.modal.-payment-coupon .modal-body .h-title {
+    font-family: "Pridi", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1em;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.modal.-payment-coupon .modal-body .content {
+    padding-bottom: 20px;
+}
+
+.modal.-payment-coupon .modal-body .desc {
+    font-family: "Pridi", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2em;
+    padding-top: 15px;
+}
+
+.modal.-payment-coupon .modal-body .desc li {
+    width: 100%;
+}
+
+.modal.-payment-coupon .modal-body .desc li+li {
+    margin-top: 20px;
+}
+
+.modal.-payment-coupon .modal-body .desc li:not(:last-child) {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.modal.-payment-coupon .modal-body .desc .action {
+    margin: 0;
+}
+
+.modal.-payment-coupon .modal-body .desc .action .btn {
+    min-width: 120px;
+}
+
+.booking-sum .block.-code .form-default {
+    margin-top: 15px;
+}
+
+.booking-sum .block.-code .form-default .form-group {
+    margin: 0;
+}
+
+.booking-sum .block.-code .form-default .form-control {
+    font-size: 16px;
+    padding: 5px 40px 5px 20px;
+}
+
+.booking-sum .block.-code .action .btn {
+    min-width: 110px;
+}
+
+@media screen and (max-width: 1660px) {
+    .detail-select .wrapper .sp-camp .action .link {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .modal.-camp-detail .modal-header {
+        padding: 18px 15px;
+    }
+    .modal.-camp-detail .modal-body .h-title {
+        font-size: 24px;
+    }
+    .modal.-camp-detail .modal-body .desc {
+        font-size: 16px;
+    }
+    .modal.modal.-payment-coupon .modal-header {
+        padding: 18px 15px;
+    }
+    .modal.modal.-payment-coupon .modal-body {
+        padding: 15px 25px;
+    }
+    .modal.modal.-payment-coupon .modal-body .h-title {
+        font-size: 24px;
+    }
+    .modal.modal.-payment-coupon .modal-body .desc {
+        font-size: 16px;
+    }
+    .booking-sum .block.-code .form-default .form-control {
+        height: 45px;
+    }
+    .booking-sum .block.-code .form-default .form-control-feedback {
+        top: 16px;
+    }
+    .booking-sum .block.-code .action .btn {
+        min-width: 100px;
+    }
+}
+
+
+/* end edit 20 07 2021 */
+
+
+/* tup edit 30 07 2021 */
+
+
+/*.confirm-block .image{background-color: transparent;}*/
+
+.card .body .desc {
+    line-height: 1.7em;
+}
+
+.card .body .desc.text-limit {
+    white-space: inherit;
+    max-height: calc(1.7em * 2);
+    -webkit-line-clamp: 2;
+    min-height: 100px;
+}
+
+.modal.-cancle-trip .modal-dialog {
+    max-width: 1087px
+}
+
+.modal.-cancle-trip .modal-header {
+    align-items: center;
+}
+
+.modal.-cancle-trip .modal-header .title {
+    font-size: 21px;
+    font-family: 'Pridi', sans-serif;
+    line-height: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.modal.-cancle-trip .booking-sum {
+    font-size: 20px;
+    width: 320px;
+}
+
+.modal.-cancle-trip .booking-sum .block {
+    padding: 20px;
+}
+
+.modal.-cancle-trip .booking-sum .block .link {
+    color: #b2b2b2;
+    text-decoration: underline;
+}
+
+.modal.-cancle-trip .booking-sum .h-title {
+    font-size: 24px;
+}
+
+.modal.-cancle-trip .form-default .form-group {
+    max-width: 500px;
+}
+
+.modal.-cancle-trip .form-default .title {
+    font-size: 32px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: 400;
+    line-height: 1em;
+    margin-bottom: 28px;
+}
+
+.modal.-cancle-trip .form-default .control-label {
+    font-size: 21px;
+    font-family: 'Pridi', sans-serif;
+    font-weight: 300;
+    line-height: 1em;
+    margin-top: 24px;
+    margin-bottom: 17px;
+}
+
+.modal.-cancle-trip .form-default .form-control {
+    border-radius: 20px;
+}
+
+.modal.-cancle-trip .form-default .select2-container--default .select2-selection--single {
+    border-radius: 20px;
+}
+
+.modal.-cancle-trip .action .btn {
+    font-size: 25px;
+    display: block;
+    width: 100%;
+}
+
+.should-list .icon-should {
+    position: absolute;
+    left: -12px;
+    top: 50%;
+    width: 100%;
+    /* height: 100%; */
+    transform: translate(0, -20%);
+}
+
+.should-list .icon-should img {
+    width: 24px;
+}
+
+@media screen and (max-width: 1440px) {
+    .modal.-cancle-trip .modal-dialog {
+        max-width: 940px;
+    }
+    .modal.-cancle-trip .form-default .title {
+        font-size: 25px;
+        margin-bottom: 22px;
+    }
+    .modal.-cancle-trip .modal-body {
+        padding: 45px;
+    }
+    .modal.-cancle-trip .form-default .form-group {
+        max-width: 600px;
+    }
+    .modal.-cancle-trip .form-default .select2-container .select2-selection--single {
+        height: 48px;
+    }
+    .modal.-cancle-trip .form-default .select2-container--default .select2-selection--single .select2-selection__rendered {
+        line-height: 48px;
+    }
+    .modal.-cancle-trip .form-default .select2-container--default .select2-selection--single .select2-selection__arrow b {
+        top: 55%;
+    }
+    .modal.-cancle-trip .form-default textarea {
+        height: 140px;
+    }
+    .modal.-cancle-trip .form-default .control-label {
+        font-size: 18px;
+    }
+    .modal.-cancle-trip .action .btn {
+        height: 55px;
+        line-height: 55px;
+        font-size: 22px;
+    }
+    .modal.-cancle-trip .booking-sum .h-title {
+        font-size: 22px;
+    }
+    .modal.-cancle-trip .booking-sum {
+        font-size: 18px;
+    }
+    /*.card .head .cover{padding-bottom: 125%;}*/
+    .search-page .card .head .cover {
+        padding-bottom: 90%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .should-list .icon-should {
+        left: -9px;
+    }
+    .should-list .icon-should img {
+        width: 18px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .modal.-cancle-trip .modal-dialog {
+        max-width: 100%;
+    }
+    .modal.-cancle-trip .booking-sum {
+        width: 290px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .modal.-cancle-trip .modal-body {
+        padding: 20px;
+    }
+    .modal.-cancle-trip .form-default .form-group {
+        max-width: 100%;
+    }
+    .modal.-cancle-trip .form-default .title {
+        font-size: 22px;
+    }
+    .modal.-cancle-trip .booking-sum {
+        width: 330px;
+        max-width: 100%;
+    }
+    .modal.-cancle-trip .booking-sum {
+        margin-top: 20px;
+    }
+    .modal.-cancle-trip .booking-sum .h-title {
+        font-size: 20px;
+    }
+    .modal.-cancle-trip .booking-sum {
+        font-size: 16px;
+    }
+    .modal.-cancle-trip .booking-sum .block {
+        padding: 15px;
+    }
+    .modal.-cancle-trip .action .btn {
+        height: 45px;
+        line-height: 45px;
+        font-size: 20px;
+    }
+    .modal.-cancle-trip .modal-content {
+        margin-bottom: 0;
+    }
+    .modal.-cancle-trip .modal-header {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+}
+
+
+/* tup end edit 30 07 2021 */
+
+
+/* edit 10 08 2021 */
+
+.camp-detail-page>.container {
+    max-width: 1380px;
+}
+
+.camp-detail-page .main .container {
+    max-width: 1380px;
+}
+
+.camp-detail-page .select-camp-area {
+    min-width: inherit;
+    width: 420px;
+}
+
+.camp-detail-page .detail-select .wrapper .size-camp {
+    margin-top: 0;
+}
+
+.camp-detail-page .detail-select .wrapper .desc .sp-camp {
+    padding-left: 10px;
+}
+
+.camp-detail-page .detail-select .wrapper .size-camp {
+    width: 300px;
+}
+
+.camp-detail-page .detail-select .wrapper .price-camp {
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.detail-select .wrapper .sp-camp .action {
+    margin-top: 10px;
+}
+
+.detail-select .wrapper .action {
+    margin-left: 30px;
+}
+
+.camp-detail-page .detail-select .guest-detail-list {
+    margin-top: 12px;
+}
+
+.camp-detail-page .detail-select .guest-detail-list li {
+    width: auto;
+}
+
+.camp-detail-page .detail-select .guest-detail-list .text {
+    white-space: nowrap;
+    margin-right: 10px;
+}
+
+.camp-detail-page .detail-select .guest-detail-list .number {
+    width: 60px;
+}
+
+.camp-detail-page .detail-select .guest-detail-list .btn {
+    border: none;
+}
+
+.camp-detail-page .detail-select .wrapper .help-block {
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+    .camp-detail-page .select-camp-area {
+        width: 300px;
+    }
+    .camp-detail-page .detail-select {
+        margin-top: 20px;
+    }
+    .camp-detail-page .detail-select .wrapper {
+        margin-left: 0;
+    }
+    .camp-detail-page .detail-select .wrapper .desc .sp-camp {
+        padding-left: 5px;
+    }
+    .camp-detail-page .detail-select .wrapper .size-camp {
+        width: 210px;
+    }
+    .camp-detail-page .detail-select .wrapper .help-block {
+        font-size: 14px;
+    }
+    .camp-detail-page .detail-select .wrapper .price-camp {
+        font-size: 26px;
+        margin-top: 18px;
+    }
+    .camp-detail-page .detail-select .lock {
+        margin-top: 8px;
+    }
+    .camp-detail-page .detail-select .lock img {
+        width: 34px;
+    }
+    .camp-detail-page .detail-select .guest-detail-list {
+        margin-top: 3px;
+    }
+    .camp-detail-page .detail-select .guest-detail-list .number {
+        width: 40px;
+    }
+    .camp-detail-page .detail-select .guest-detail-list .btn {
+        font-size: 24px;
+    }
+    .camp-detail-page .detail-select .guest-detail-list .text {
+        width: 44px;
+        text-align: left;
+        white-space: normal;
+        margin-top: 2px;
+    }
+    .detail-select .wrapper .action {
+        margin: 0 0 0 15px;
+    }
+    .detail-select .wrapper .btn {
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .camp-detail-page .select-camp-area {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .camp-detail-page .detail-select .wrapper .desc .sp-camp {
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    .camp-detail-page .detail-select .item-list {
+        margin: 0;
+    }
+    .camp-detail-page .detail-select .lock img {
+        width: 45px;
+    }
+}
+
+
+/* edit 10 08 2021 */
+
+
+/* edit 13 08 2021 */
+
+.confirm-block img {
+    width: 30px;
+}
+
+.camp-map-list .wrapper {
+    padding-top: 63%;
+    position: relative;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.camp-map-list .map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.camp-map-list .pin {
+    position: absolute;
+}
+
+.camp-map-list .link {
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-color: #fff;
+    border: 3px solid #687A6A;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #687A6A;
+}
+
+.camp-map-list .link.active {
+    border-color: transparent;
+    background-color: #D54E38;
+    color: #fff;
+}
+
+.camp-map-list .link.disabled {
+    border-color: transparent;
+    background-color: #E2E2E2;
+    color: #B2B2B2;
+}
+
+.camp-map-list .info {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 330px;
+    padding: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+    font-family: "Pridi", sans-serif;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    margin-bottom: 15px;
+}
+
+.camp-map-list .info:before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 100%;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #fff;
+}
+
+.camp-map-list .inner {
+    padding-left: 15px;
+}
+
+.camp-map-list .inner .desc {
+    font-size: 16px;
+    line-height: 1.3em;
+    font-weight: 300;
+    padding-right: 20px;
+    font-family: "Pridi", sans-serif;
+}
+
+.camp-map-list .inner .price {
+    font-size: 26px;
+    font-family: "DMSans", sans-serif;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.camp-map-list .inner .price small {
+    font-size: 16px;
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+}
+
+.camp-map-list .cover {
+    width: 140px;
+    padding-top: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.camp-map-list .cover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.camp-map-list .qty {
+    margin-top: 10px;
+}
+
+.camp-map-list .qty .btn {
+    min-width: inherit;
+    width: 34px;
+    height: 34px;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: #637B69;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-weight: normal;
+}
+
+.camp-map-list .qty .people {
+    text-align: center;
+    line-height: 34px;
+}
+
+.camp-map-list .action {
+    margin-top: 20px;
+}
+
+.camp-map-list .action .btn {
+    min-width: inherit;
+    width: 100%;
+    background-color: #637b69;
+    font-family: "Pridi", sans-serif;
+    font-weight: 30 0;
+    font-size: 18px;
+    min-width: 136px;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 24px;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.camp-detail-page .gm-style .gm-style-iw-c {
+    padding: 15px !important;
+}
+
+.camp-map-list .gm-style .gm-style-iw-c {
+    width: 330px !important;
+}
+
+.camp-map-list .gm-style .gm-style-iw {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "DMSans", sans-serif;
+}
+
+.camp-map-list .gm-ui-hover-effect {
+    border: none !important;
+    top: 5px !important;
+    right: 5px !important;
+}
+
+.camp-map-list .gm-ui-hover-effect img {
+    filter: brightness(0) invert(0);
+    width: 20px !important;
+    height: 20px !important;
+    margin: 0 !important;
+}
+
+.camp-info-header {
+    margin-bottom: 25px;
+}
+
+.camp-info-header .row {
+    margin: 0 -10px;
+}
+
+.camp-info-header .row>div {
+    padding: 0 10px;
+}
+
+.camp-info-header .s-title {
+    padding-bottom: 0;
+}
+
+.camp-info-header .nav li+li {
+    margin-left: 5px;
+}
+
+.camp-info-header .nav .link {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+.camp-info-header .nav .link.active {
+    background-color: #D54E38;
+}
+
+.camp-info-header .nav .link.active img {
+    filter: brightness(0) invert(1);
+}
+
+.camp-detail-page .h-gallery .link {
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #637B69;
+    text-decoration: underline;
+    line-height: 1.2em;
+}
+
+.camp-detail-page .h-gallery .icon {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: 0px;
+    margin-right: 10px;
+}
+
+.editor-content .h-title {
+    line-height: 1.2em;
+    margin-bottom: 30px;
+}
+
+.editor-content strong {
+    font-weight: 500;
+}
+
+.editor-content p {
+    margin-bottom: 30px;
+}
+
+
+/* edit 13 08 2021 */
+
+
+/* edit 26 08 2021 */
+
+.daterangepicker {
+    border: 1px solid #DFDFDF;
+}
+
+.camp-detail-page .select-camp-area .box {
+    position: relative;
+}
+
+.camp-detail-page .select-camp-area .box .cover,
+.camp-detail-page .select-camp-area .box .cover img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.camp-detail-page .select-camp-area .item-list li {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.camp-detail-page .select-camp-area .item-list li+li {
+    margin: 0 0 15px 0
+}
+
+
+/* edit 26 08 2021 */
+
+.callback-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.callback-page .icon {
+    width: 140px;
+    margin: 0 auto 30px;
+}
+
+.callback-page .title {
+    font-family: "Pridi", sans-serif;
+    font-size: 20px;
+}
+
+.camp-detail-page .select-camp-area .desc {
+    font-size: 20px;
+    line-height: 1.2em;
+}
+
+.camp-detail-page .select-camp-area .item-list .desc {
+    padding-right: 40px;
+    position: relative;
+    line-height: 1.2em;
+}
+
+.camp-detail-page .select-camp-area .h-title.font-sum {
+    padding: 5px 0;
+    line-height: 1.2em;
+}
+
+.camp-detail-page .select-camp-area .close {
+    position: absolute;
+    top: -2px;
+    left: 100%;
+    margin: 0 0 0 5px;
+}
+
+.camp-detail-page .b-icon .dropdown-menu {
+    transform: translate(-130px, 10px) !important;
+}
+
+.camp-detail-page .b-icon .social-list li {
+    padding: 0 4px;
+}
+
+.panorama iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Addon & Edit Jorjee */
+
+.skiptranslate {
+    display: none !important;
+}
+
+body {
+    top: 0 !important;
+}
+
+.site-header .lang .link span {
+    position: relative;
+    top: 2px;
+    margin-left: 6px;
+}
+
+.modal .close {
+    position: absolute;
+    right: 20px;
+}
+
+.modal-intro .close {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    border: none;
+    background-color: #fff;
+}
+
+.modal-intro .close span {
+    line-height: 36px;
+}
+
+.modal-intro .close:not(:disabled):not(.disabled):focus,
+.modal-intro .close:not(:disabled):not(.disabled):hover {
+    opacity: 1;
+}
+
+.modal-intro .modal-content {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background-color: #f2f2f2;
+}
+
+.modal-intro .modal-body {
+    padding: 20px;
+}
+
+.modal-intro .brand {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.modal-intro .brand img {
+    width: 140px;
+}
+
+.modal-intro .cover {
+    position: relative;
+    padding-top: 104.2%;
+}
+
+.modal-intro .cover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*.intro-list{height: 600px;}*/
+
+.intro-list .slick-list {
+    overflow: hidden;
+}
+
+.intro-list .slick-list .slick-slide {
+    opacity: 1;
+    transition: all 0ms ease;
+}
+
+.modal.-panorama .modal-body {
+    display: block;
+    padding: 30px;
+}
+
+.modal.-panorama .modal-content {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.modal.-panorama .close {
+    margin: 0;
+    top: -15px;
+    right: -15px;
+    background-color: #fff;
+}
+
+.modal.-panorama .close:not(:disabled):not(.disabled):focus,
+.modal.-panorama .close:not(:disabled):not(.disabled):hover {
+    opacity: 1;
+}
+
+.modal .form-default .form-button .btn {
+    font-weight: 300;
+    font-family: 'Pridi', serif;
+    font-size: 25px;
+}
+
+.modal .sign-in .social .link {
+    border-color: transparent;
+    color: #fff;
+}
+
+.modal .sign-in .social .link img {
+    filter: inherit;
+}
+
+.blog-body .thumb .cover {
+    height: auto;
+    padding-bottom: 66.3% !important;
+}
+
+.blog-body .highlight .cover {
+    height: auto;
+    padding-bottom: 52.9% !important;
+}
+
+.blog-body .banner-box {
+    height: auto;
+    border: none;
+}
+
+.blog-body .banner-box .cover {
+    height: auto;
+    padding-bottom: 69.6% !important;
+}
+
+.blog-body .banner-bar .banner-box {
+    height: auto;
+}
+
+.blog-body .banner-bar .banner-box .cover {
+    height: auto;
+    padding-bottom: 14.7% !important;
+}
+
+.camp-detail-page .select-camp-area {
+    position: sticky;
+    top: 140px;
+    margin-top: 0;
+}
+
+.panorama {
+    margin: 0;
+}
+
+.menu-filter form .row~.action {
+    display: none;
+}
+
+.menu-filter~.menu-filter form .row~.action {
+    display: block;
+}
+
+.about-page .content .block {
+    height: auto;
+}
+
+.about-page .content .block .cover {
+    height: auto;
+    padding-bottom: 70%;
+}
+
+.profile-page .wrapper-profile .b-rank .name-rank {
+    text-align: left;
+}
+
+.coupon-list {
+    font-size: inherit;
+}
+
+.coupon-list .wrapper {
+    border-radius: 20px;
+    border: 1px solid #999;
+    margin-bottom: 20px;
+}
+
+.coupon-list .item-list {
+    margin: 0 -10px;
+}
+
+.coupon-list .item-list>li {
+    padding: 0 10px;
+    width: 50%;
+}
+
+.coupon-list .discount {
+    width: 180px;
+    padding: 20px 0;
+    border-right: 1px solid #999;
+    text-align: center;
+}
+
+.coupon-list .discount .topic {
+    font-family: "Pridi", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2em;
+}
+
+.coupon-list .discount .value {
+    font-family: "DMSans", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1.2em;
+}
+
+.coupon-list .discount .unit {
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.2em;
+}
+
+.coupon-list .inner {
+    padding: 0 40px;
+}
+
+.coupon-list .title {
+    width: 256px;
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 1.2em;
+    border: 1px dashed #999;
+    padding: 5px 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.profile-page.coupon .coupon-list .desc {
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.2em;
+    margin-top: 12px;
+}
+
+.profile-page.coupon .coupon-list .desc a {
+    color: #637B69;
+}
+
+.modal.-cancle-trip.modal-cupon .modal-dialog {
+    max-width: 620px;
+}
+
+.modal-cupon .title {
+    font-family: "Pridi", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.2em;
+}
+
+.modal-cupon .desc {
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.2em;
+    margin-top: 5px;
+}
+
+.modal-cupon .row .row+.row {
+    margin-top: 30px;
+}
+
+@media (min-width: 1441px) {
+    .about-page .ourValues li {
+        padding: 0 45px;
+    }
+    .card .body .item-list {
+        margin-top: 18px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1440px) {
+    .camp-detail-page .should-list li+li {
+        margin-top: 15px;
+    }
+    .camp-detail-page .detail-select .wrapper .size-camp {
+        font-size: 16px;
+        line-height: 1.2em;
+    }
+    .camp-detail-page .detail-select .wrapper .size-camp span {
+        font-size: 16px;
+        border-left: none;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .camp-detail-page .detail-select .wrapper .price-camp {
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .camp-detail-page .detail-select .wrapper .price-camp span {
+        font-size: 16px;
+    }
+    .detail-select .wrapper .sp-camp .action .link {
+        font-size: 16px;
+    }
+    .camp-detail-page .detail-select .guest-detail-list .text {
+        font-size: 16px;
+    }
+    .camp-detail-page .detail-select .wrapper .help-block {
+        font-size: 16px;
+    }
+    .camp-detail-page .detail-select .wrapper .size-camp {
+        width: 200px;
+    }
+    .camp-detail-page .detail-select .guest-detail-list .text {
+        width: 50px;
+        line-height: 1.2em;
+        margin-top: 0;
+        top: -2px;
+        position: relative;
+    }
+    .camp-detail-page .select-camp-area {
+        margin-top: 0;
+    }
+    .profile-page {
+        margin-top: 90px;
+        padding-top: 50px;
+    }
+    .profile-page .wrapper-profile .b-rank .icon-rank {
+        margin-right: 10px;
+    }
+    .profile-page .wrapper-profile .b-rank .name-rank {
+        font-size: 18px;
+        line-height: 1.2em;
+    }
+    .profile-page .wrapper-profile .b-rank .name-rank strong {
+        font-size: 18px;
+    }
+    .coupon-list .discount {
+        width: 100px;
+        padding: 15px 0;
+    }
+    .coupon-list .discount .topic {
+        font-size: 18px;
+    }
+    .coupon-list .discount .value {
+        font-size: 34px;
+    }
+    .coupon-list .discount .unit {
+        font-size: 14px;
+    }
+    .coupon-list .inner {
+        padding: 0 20px;
+    }
+    .coupon-list .title {
+        width: 146px;
+        padding: 4px 6px;
+        font-size: 16px;
+        line-height: 1em;
+    }
+    .profile-page.coupon .coupon-list .desc {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .modal-cupon .title {
+        font-size: 20px;
+    }
+    .modal-cupon .desc {
+        font-size: 18px;
+    }
+    .modal-cupon .modal-content {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .coupon-list {
+        margin-top: 15px;
+    }
+    .coupon-list .item-list>li {
+        width: 100%;
+    }
+    .coupon-list .discount {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #999;
+        padding: 15px;
+    }
+    .coupon-list .wrapper {
+        margin-bottom: 15px;
+    }
+    .coupon-list .discount .topic {
+        font-size: 20px;
+    }
+    .coupon-list .discount .value {
+        font-size: 40px;
+    }
+    .coupon-list .inner {
+        padding: 15px;
+    }
+    .coupon-list .title {
+        width: auto;
+        font-size: 20px;
+    }
+    .profile-page.coupon .coupon-list .desc {
+        font-size: 14px;
+    }
+    .modal-cupon .title {
+        font-size: 18px;
+    }
+    .modal-cupon .desc {
+        font-size: 16px;
+    }
+    .modal-cupon .row .row+.row {
+        margin-top: 20px;
+    }
+    .modal-cupon .modal-body {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    .modal-cupon .modal-content {
+        padding-bottom: 0 !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .intro-list {
+        height: auto;
+    }
+    .modal-intro .modal-body {
+        padding: 15px;
+    }
+    .modal-intro .brand img {
+        width: 100px;
+    }
+    .modal-intro .modal-dialog {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .modal-intro .close {
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+        top: -12px;
+        right: -12px;
+        line-height: inherit;
+    }
+    .modal-intro .close span {
+        line-height: 30px;
+    }
+    .modal.-panorama .modal-body {
+        padding: 15px;
+    }
+    .modal.-panorama .modal-dialog {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .modal.-panorama .close {
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+        top: -12px;
+        right: -12px;
+        line-height: inherit;
+    }
+    .modal.-panorama .close span {
+        line-height: 30px;
+    }
+    /*.menu-filter .action{display: none;}*/
+    .b-right .member .cover img {
+        width: 100% !important;
+    }
+    .site-header .b-right li {
+        padding: 0 4px;
+    }
+    .site-header .b-right li .link img {
+        width: 20px;
+    }
+    .site-header .lang .link span {
+        margin-left: 3px;
+    }
+    .modal .form-default .form-button .btn {
+        font-size: 18px;
+    }
+    .modal .mail .link,
+    .modal .social .link {
+        height: 45px;
+        line-height: 45px;
+    }
+    .modal .social .link .icon {
+        margin-right: 3px;
+    }
+    .camp-detail-page .select-camp-area {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .site-header,
+    .site-header.tiny,
+    .site-header.reset-header.tiny,
+    .site-header.reset-header {
+        height: 60px;
+    }
+    .site-header .b-right .rl-block>div {
+        float: left;
+        padding: 0;
+    }
+    .site-header .b-right .rl-block>div+div {
+        margin-left: 6px;
+    }
+    .site-header .b-right li {
+        line-height: 30px;
+    }
+    .site-header .b-right li .signup {
+        margin-top: 0;
+    }
+    .site-header .b-right li .login-header {
+        background-color: #fff;
+        border: 1px solid #637b69;
+        color: #637b69;
+        line-height: 28px;
+    }
+    .site-header .b-right li:first-child::before {
+        display: none;
+    }
+    .site-header .b-right li .signup,
+    .site-header .b-right li .login-header {
+        min-width: auto;
+        width: auto;
+        padding: 0 15px;
+        font-size: 12px;
+    }
+    .site-header .b-right li .lang .link {
+        font-size: 16px;
+        position: relative;
+        top: 2px;
+        padding: 0;
+    }
+    .site-header .b-right li .lang .dropdown-item img {
+        width: 20px;
+    }
+    .site-header .dropdown-menu .dropdown-item {
+        padding: 0px;
+    }
+    .about-page,
+    .help-page,
+    .profile-page,
+    .camp-detail-page {
+        margin-top: 60px;
+    }
+    .topgraphic {
+        padding-top: 290px;
+        padding-bottom: 30px;
+    }
+    .topgraphic .wg-search {
+        top: 30px;
+    }
+    .topgraphic .wg-search .h-title {
+        font-size: 26px;
+    }
+    .topgraphic .search-form .label-search {
+        top: 60px;
+    }
+    .topgraphic .topgraphic-list .cover {
+        padding-bottom: 80%;
+    }
+    .topgraphic .slick-dots {
+        bottom: 30px;
+    }
+    .topgraphic .slick-dotted.slick-slider {
+        margin-bottom: 0;
+    }
+}
+
+.daterange-test {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 140px;
+}
+
+
+/* PDPA */
+
+.pdpa {
+    position: sticky;
+    z-index: 1000;
+    bottom: 0;
+    font-family: "Pridi", sans-serif;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px 0;
+}
+
+.pdpa .icon {
+    width: 58px;
+    margin-right: 20px;
+}
+
+.pdpa .desc {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.4em;
+    font-weight: 300;
+}
+
+.pdpa .desc .link {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.pdpa .action {
+    margin-left: 40px;
+}
+
+.pdpa .action .btn {
+    font-family: "Pridi", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #637b69;
+    border-radius: 30px;
+    color: #fff;
+    border: none;
+    min-width: inherit;
+    padding: 15px 40px;
+    line-height: 1em;
+    height: auto;
+}
+
+.pdpa .action .btn:hover {
+    background-color: #282828;
+}
+
+@media (max-width: 1440px) {
+    .pdpa .desc {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .site-footer .ft-bt .policy li:first-child {
+        padding-right: 10px;
+    }
+    .site-footer .ft-bt .policy li:last-child {
+        padding-left: 10px;
+    }
+    .pdpa .row {
+        align-items: start !important;
+    }
+    .pdpa .icon {
+        margin-right: 15px;
+        width: 50px;
+    }
+    .pdpa .action {
+        margin-left: 65px;
+        margin-top: 15px;
+    }
+    .pdpa .action .btn {
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+}
+
+
+/* PDPA */
+
+
+/* Camp Detail */
+
+.camp-detail-page .sticky-booking {
+    height: auto;
+    padding: 20px 0;
+}
+
+.camp-detail-page .sticky-booking .link {
+    font-size: 20px;
+}
+
+.camp-detail-page .sticky-booking .date {
+    display: none;
+}
+
+.camp-detail-page .sticky-booking .menu {
+    margin-top: 14px;
+}
+
+.camp-detail-page .sticky-booking .menu .item-list {
+    margin: 0 -10px;
+}
+
+.camp-detail-page .sticky-booking .menu .item-list li {
+    padding: 0 10px;
+}
+
+.camp-detail-page .detail-select .wrapper .size-camp {
+    font-size: 16px;
+    line-height: 1.4em;
+}
+
+.camp-detail-page .detail-select .wrapper .size-camp span {
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.camp-detail-page .detail-select .wrapper .price-camp {
+    margin-top: 15px;
+}
+
+.camp-detail-page .detail-select .guest-detail-list .text {
+    font-size: 16px;
+}
+
+.camp-detail-page .select-camp-area .desc {
+    font-size: 18px;
+}
+
+.camp-detail-page .select-camp-area .note {
+    margin-top: 10px;
+    line-height: 1em;
+}
+
+.camp-detail-page .select-camp-area .item-list .desc {
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+.detail-select .wrapper .sp-camp .action {
+    margin-top: 8px;
+}
+
+.select-camp-close {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    top: 13px;
+    right: 13px;
+}
+
+.select-camp-close .link {
+    font-size: 18px;
+    display: block;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    border: 1px solid #DFDFDF;
+    border-radius: 50%;
+    color: #282828;
+}
+
+.select-camp-close .link span {
+    line-height: 34px;
+}
+
+.search-page .site-header {
+    display: none;
+}
+
+.booking-more {
+    display: none;
+}
+
+.booking-sum .block.-code .form-group {
+    margin-bottom: 0;
+}
+
+.booking-sum .block .container {
+    padding: 0;
+    width: 100%;
+}
+
+.booking-sum .checkbox-control .icon {
+    top: 1px;
+}
+
+.booking-sum .checkbox-control .title {
+    font-size: 18px;
+}
+
+.booking-sum .checkbox-control input[type="checkbox"]:checked~.icon:before {
+    font-size: 18px;
+    position: relative;
+    top: -2px;
+}
+
+.booking-sum .block.-code .action .btn {
+    font-family: 'Mitr';
+    font-weight: 400;
+}
+
+.booking-sum .block.-code .form-default .form-control {
+    height: 54px;
+    padding: 5px 40px 5px 15px;
+}
+
+.booking-sum .block.-code .form-default .form-control-feedback {
+    top: 18px;
+}
+
+.booking-sum .block.-code .form-default .action {
+    margin-top: 0;
+}
+
+.booking-sum .block.-code .action {
+    margin-top: 15px;
+}
+
+.booking-sum .block.-code .action .btn {
+    height: 54px;
+    font-size: 20px;
+    line-height: 52px;
+    display: block;
+}
+
+.booking-sum .block.-code .nav .link {
+    color: #282828;
+    white-space: nowrap;
+}
+
+.booking-sum .block.-code .nav .link.active {
+    color: #D54E38;
+}
+
+.booking-sum .block.-code .nav li+li:before {
+    content: '/';
+    float: left;
+    padding: 0 5px;
+}
+
+.booking-sum .block.-code .trueactionDiscount .action {
+    margin-top: 0;
+}
+
+.modal.-payment-coupon .modal-body .desc .action .btn {
+    height: 54px;
+    line-height: 52px;
+    font-family: 'Mitr';
+    font-weight: 400;
+}
+
+.daterangepicker td.active.in-range {
+    color: #fff;
+}
+
+.site-header .b-right li .lang .link img {
+    width: 22px;
+    position: relative;
+    top: -1px;
+}
+
+.profile-page .menu-profile li.active,
+.profile-page .menu-profile li:hover {
+    border-radius: 0;
+}
+
+.profile-detail .card.-favorite .body .item-list li img {
+    width: 64px;
+}
+
+
+/*.ui-widget{margin: 0; top: inherit !important; left: inherit !important;}*/
+
+.ui-widget {
+    margin: 0;
+}
+
+.modal .close {
+    z-index: 100;
+}
+
+.detail-select .wrapper .sp-camp .action .link {
+    display: inline-block;
+}
+
+.modal.-should .close {
+    margin-right: 0;
+}
+
+#accordionShould .link {
+    color: #282828;
+}
+
+#accordionShould [data-toggle="collapse"] {
+    padding-right: 15px;
+}
+
+#accordionShould [data-toggle="collapse"]:after {
+    font-family: 'feather';
+    content: '\e845';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #999;
+}
+
+#accordionShould [data-toggle="collapse"].collapsed:after {
+    content: '\e842';
+}
+
+.camp-map-list .link {
+    width: 30px;
+    height: 30px;
+    border-width: 2px;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.camp-detail-page .select-camp-area .item-list .nolistdata .desc {
+    text-align: center;
+    font-size: 16px;
+    color: #bababa;
+    padding: 0;
+}
+
+.camp-detail-page .detail-select .lock {
+    margin-top: -40px;
+    text-align: center;
+}
+
+.camp-detail-page .detail-select .lock img {
+    filter: brightness(0) invert(1);
+}
+
+.camp-map-list .cover {
+    margin-bottom: 0;
+}
+
+.camp-map-list .cover~.pano {
+    display: block;
+    margin-top: -40px;
+    position: relative;
+    z-index: 100;
+}
+
+.camp-map-list .cover~.pano img {
+    filter: brightness(0) invert(1);
+}
+
+.modal.-should .link::before {
+    display: none;
+}
+
+.topgraphic .wg-search {
+    min-height: inherit;
+}
+
+.coupon-list .title {
+    border: none;
+    padding: 0;
+    font-weight: 400;
+}
+
+.slick-prev,
+.slick-next {
+    border-color: #666;
+    color: #666;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    border-color: #637B69;
+    color: #637B69;
+}
+
+.wg-text-left .slick-prev,
+.wg-text-left .slick-next {
+    border-color: #fff;
+    color: #fff;
+}
+
+.wg-text-left .slick-prev:hover,
+.wg-text-left .slick-next:hover {
+    border-color: #fff;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.btn-danger.disabled,
+.btn-danger.disabled:hover {
+    background-color: #ddd;
+}
+
+@media (max-width: 1680px) {
+    .camp-detail-page .detail-select .wrapper {
+        margin-left: 0;
+    }
+    .camp-detail-page .detail-select .wrapper .size-camp {
+        padding-right: 30px;
+    }
+    .camp-detail-page .detail-select .guest-detail-list {
+        margin-top: 4px;
+    }
+    .camp-detail-page .detail-select .guest-detail-list .btn {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        padding: 0;
+        font-size: 26px;
+    }
+    .camp-detail-page .detail-select .guest-detail-list .number {
+        height: 30px;
+        width: 50px;
+    }
+    .detail-select .wrapper .action {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+    .detail-select .wrapper .btn {
+        height: 40px;
+        line-height: 38px;
+        font-size: 18px;
+        min-width: 100px;
+    }
+    .booking-sum .checkbox-control .icon {
+        top: 0px;
+    }
+    .booking-sum .checkbox-control .title {
+        font-size: 16px;
+    }
+    .booking-sum .checkbox-control input[type="checkbox"]:checked~.icon:before {
+        top: 0;
+    }
+}
+
+@media (max-width: 1440px) {
+    .btn {
+        height: 45px;
+        line-height: 43px;
+        font-size: 20px;
+    }
+    .camp-detail-page .select-camp-area {
+        top: 110px;
+    }
+    .payment-method .eght-pay img {
+        max-width: 360px;
+    }
+}
+
+@media (max-width: 768px) {
+    /*.btn{line-height: 43px; font-size: 18px;}*/
+    .btn {
+        height: 45px;
+        line-height: 43px;
+        font-size: 20px;
+    }
+    .site-footer.acc-footer .ft-bt .policy li:first-child {
+        padding-right: 10px;
+    }
+    .site-footer.acc-footer .ft-bt .policy li:last-child {
+        padding-left: 10px;
+    }
+    .menu-filter {
+        padding-bottom: 0;
+    }
+    .checkbox-control .icon {
+        line-height: 14px;
+    }
+    .camp-info-header .s-title {
+        padding-bottom: 10px;
+    }
+    .camp-detail-page .detail-select .guest-detail-list .text {
+        width: 50px;
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .camp-detail-page .detail-select li {
+        padding: 20px 10px;
+    }
+    .camp-detail-page .detail-select li:first-child {
+        padding-top: 0;
+    }
+    .camp-detail-page .should-list li+li {
+        margin-top: 10px;
+    }
+    .camp-detail-page .gm-style .gm-style-iw-c {
+        padding: 10px !important;
+    }
+    .camp-detail-page .action.-should {
+        margin-top: 15px;
+        padding-left: 12px;
+    }
+    .camp-detail-page .action.-should.-ii {
+        padding-left: 12px;
+    }
+    .camp-detail-page .should.-ii {
+        margin-top: 25px;
+    }
+    .camp-detail-page .gallery .action .btn-light {
+        font-size: 14px;
+        height: 30px;
+        padding: 0 15px;
+    }
+    .camp-detail-page .full-map .cover {
+        padding-bottom: 80%;
+    }
+    .booking-more {
+        display: block;
+        height: 20px;
+    }
+    .booking-more .link {
+        display: block;
+        position: relative;
+        top: -15px;
+        margin: 0 auto;
+        padding: 0 !important;
+        width: 36px;
+        height: 36px;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+        padding: 2px 0;
+        text-align: center;
+        font-size: 22px !important;
+        color: #637B69 !important;
+    }
+    .booking-more .link span {
+        line-height: 32px;
+    }
+    .select-camp-close {
+        display: block;
+    }
+    /*.inner-wrapper-sticky{transform: translate3d(0px, 0px, 0px) !important;}*/
+    .camp-detail-page #sticky-booking {
+        opacity: 1 !important;
+        position: fixed !important;
+    }
+    .camp-detail-page .sticky-booking {
+        display: block;
+        padding: 0px 0 25px 0;
+    }
+    .camp-detail-page .sticky-inner {
+        position: fixed !important;
+        top: auto !important;
+        bottom: 0px !important;
+        transform: translate3d(0px, 0px, 0px) !important;
+        width: 100%;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    }
+    .camp-detail-page .sticky-booking .h-title {
+        display: none;
+    }
+    .camp-detail-page .sticky-booking .menu {
+        margin: 0;
+        position: absolute;
+        top: 20px;
+        left: 15px;
+    }
+    .camp-detail-page .sticky-booking .menu .item-list li {
+        display: none;
+    }
+    .camp-detail-page .sticky-booking .menu .item-list li.date {
+        display: block;
+    }
+    .camp-detail-page .sticky-booking .b-icon {
+        display: none;
+    }
+    .camp-detail-page .sticky-booking .desc {
+        margin-top: -20px;
+    }
+    .camp-detail-page .sticky-booking .desc .unit {
+        display: none;
+    }
+    .camp-detail-page .sticky-booking .action {
+        text-align: right;
+    }
+    .camp-detail-page .sticky-booking .btn {
+        font-size: 18px !important;
+        height: 42px !important;
+        line-height: 38px !important;
+    }
+    .camp-detail-page .sticky-booking .form-control {
+        padding: 0;
+        border: none;
+        font-size: 15px;
+        font-weight: normal;
+        height: auto;
+        text-decoration: underline;
+        width: 55vw;
+    }
+    .camp-detail-page .sticky-booking .form-control:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    .camp-detail-page .sticky-booking .desc .price {
+        font-size: 18px;
+    }
+    .camp-detail-page .select-camp-area.open {
+        opacity: 1;
+        visibility: visible;
+        transform: translate(0, 0);
+    }
+    .camp-detail-page .select-camp-area {
+        opacity: 0;
+        visibility: hidden;
+        transform: translate(0, 50%);
+        transition: all 300ms ease;
+        position: fixed;
+        overflow: auto;
+        z-index: 1000;
+        margin-top: 0;
+        padding-top: 20px;
+        background-color: #fff;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        border-radius: 0;
+        border: none;
+    }
+    .camp-detail-page .select-camp-area .desc {
+        margin-top: 0;
+        font-size: 16px;
+    }
+    .camp-detail-page .select-camp-area .h-title {
+        line-height: 1em;
+    }
+    .camp-detail-page .select-camp-area .form-default .form-control {
+        margin-top: 0;
+    }
+    .camp-detail-page .select-camp-area .item-list {
+        margin-top: 10px;
+    }
+    .camp-detail-page .select-camp-area .item-list .desc {
+        margin-top: 0;
+    }
+    .camp-detail-page .select-camp-area .item-list li {}
+    .camp-detail-page .select-camp-area .action .btn {
+        height: 50px;
+        line-height: 48px;
+    }
+    .camp-detail-page .select-camp-area .close {
+        top: -3px;
+    }
+    .camp-map-list .wrapper {
+        padding-top: 120%;
+    }
+    .camp-map-list .cover {
+        width: 120px;
+        margin-bottom: 0;
+    }
+    .camp-map-list .inner {
+        padding-left: 10px;
+    }
+    .camp-map-list .inner .desc {
+        padding-right: 25px;
+    }
+    .camp-map-list .gm-style .gm-style-iw-c {
+        max-width: inherit !important;
+        width: 300px !important;
+    }
+    .camp-map-list .action {
+        margin-top: 10px;
+    }
+    .booking-page {
+        padding: 30px 0;
+    }
+    .booking-sum {
+        margin-top: 15px;
+        width: auto;
+    }
+    .booking-sum .form-group {
+        margin-bottom: 0;
+    }
+    .booking-sum .block .container {
+        padding: 0;
+    }
+    .booking-sum .block.-code .form-default .form-control {
+        font-size: 14px;
+        padding: 5px 25px 5px 15px;
+    }
+    .booking-sum-action .btn {
+        height: 54px;
+        line-height: 52px;
+        font-size: 22px;
+    }
+    .booking-sum .checkbox-control .title {
+        font-size: 14px;
+        padding-left: 25px;
+    }
+    .booking-sum .checkbox-control .icon {
+        top: 1px;
+    }
+    .booking-sum .checkbox-control input[type="checkbox"]:checked~.icon::before {
+        font-size: 15px;
+    }
+    .payment-method .eght-pay img {
+        width: auto;
+        max-width: inherit;
+        width: 100%;
+    }
+    .booking-mobile {
+        margin-top: 15px;
+    }
+    .booking-mobile .booking-sum {
+        margin-top: 0;
+    }
+    .booking-detail {
+        padding-top: 25px;
+        margin-top: 25px;
+    }
+    .booking-detail .h-title {
+        font-size: 22px;
+    }
+    .booking-payment .h-title {
+        font-size: 22px;
+    }
+    .search-page .site-header {
+        position: relative;
+        height: auto;
+        z-index: 10;
+        display: block;
+        box-shadow: none;
+        border-radius: 0;
+        background-color: #fff;
+    }
+    .search-page .site-header .search-form {
+        position: relative;
+        left: 0;
+        top: 0;
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: visible;
+    }
+    .search-page .site-header .search-form:before,
+    .search-page .site-header .search-form:after {
+        content: ' ';
+        display: table;
+    }
+    .search-page .site-header .search-form:after {
+        clear: both;
+    }
+    .search-page .site-header .search-form .txt-key {
+        height: auto;
+        padding: 14px 0 10px 0;
+    }
+    .search-page .site-header .search-form .txt-key li {
+        width: 50%;
+    }
+    .search-page .site-header .search-form .txt-key li:nth-child(1) {
+        width: 100%;
+    }
+    .search-page .site-header .search-form .txt-key li:nth-child(1):before {
+        display: none;
+        border: none;
+        width: 100%;
+        height: 1px;
+        background-color: #ebebeb;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    .search-page .site-header .search-form .txt-key .form-control.add-guest {
+        margin-top: 0;
+    }
+    .search-page .site-header .search-form .txt-key .btn-search {
+        right: 12px;
+        top: 33px;
+        padding: 0 6px;
+    }
+    .ui-widget {
+        border-radius: 10px;
+    }
+    .daterangepicker {
+        border-radius: 10px;
+    }
+    .form-control[readonly] {
+        background-color: transparent;
+    }
+    /*.camp-detail-page .full-map .cover{padding: 0; height: 400px}*/
+    /*.camp-detail-page .full-map .cover .f-map{width: 100vw;}*/
+    /*.camp-detail-page .full-map .cover .f-map{position: relative; width: 100%; height: 200px;}*/
+    .camp-detail-page .full-map .cover {
+        padding: 0;
+    }
+    .camp-detail-page .full-map .cover .f-map {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 200px;
+        margin: auto;
+    }
+    .modal.-should .modal-title {
+        font-size: 24px;
+    }
+    .modal.-should .should-list li+li {
+        margin-top: 10px;
+    }
+    .modal .close {
+        right: 15px;
+    }
+    .site-header .b-right li .lang .link img {
+        width: 20px;
+        top: -3px;
+    }
+    .site-header .lang .link span {
+        top: 0;
+    }
+    .camp-detail-page .detail-select .lock {
+        width: 66px;
+        position: relative;
+        right: auto;
+        top: auto;
+    }
+    .camp-detail-page .detail-select .lock img {
+        width: 34px;
+    }
+    .camp-detail-page .mt {
+        margin-top: 30px;
+    }
+    .camp-detail-page .detail-select .wrapper .view {
+        touch-action: manipulation;
+    }
+    .wrapper-slide .favorite .b-fav:hover .fr-main {
+        opacity: 1;
+    }
+    .wrapper-slide .favorite .b-fav:hover .fr-hover {
+        opacity: 0;
+    }
+    .wrapper-slide .favorite .b-fav.active:hover .fr-main {
+        opacity: 0;
+    }
+    .wrapper-slide .favorite .b-fav.active:hover .fr-hover {
+        opacity: 1;
+    }
+    .card .favorite .b-fav:hover .fr-main {
+        opacity: 1;
+    }
+    .card .favorite .b-fav:hover .fr-hover {
+        opacity: 0;
+    }
+    .card .favorite .b-fav.active:hover .fr-main {
+        opacity: 0;
+    }
+    .card .favorite .b-fav.active:hover .fr-hover {
+        opacity: 1;
+    }
+    .camp-detail-page .sticky-booking .form-control {
+        pointer-events: none;
+    }
+    .camp-detail-page .select-camp-area .item-list .nolistdata .desc {
+        display: block;
+        background-color: #637B69;
+        border-radius: 25px;
+        line-height: 45px;
+        height: 45px;
+        color: #fff;
+        font-size: 20;
+        font-family: 'Mitr';
+        font-weight: 400;
+    }
+}
+
+
+/* Camp Detail */
+
+.-edit-trip .modal-header .title {
+    font-size: 18px;
+}
+
+.-edit-trip.modal .close {
+    top: 20px;
+}
+
+.-edit-trip .content,
+.-edit-trip .content p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.4em;
+}
+
+.-edit-trip .content ol {
+    padding-left: 20px;
+}
+
+@media (max-width: 1440px) {
+    .profile-page .btn-cancel {
+        min-width: 180px
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-page .btn-cancel {
+        min-width: inherit;
+    }
+}
+
+
+/* Addon 16/12/2021 */
+
+.modal-open {
+    overflow: auto;
+}
+
+.modal-content {
+    border: none;
+}
+
+.modal-form.modal .modal-dialog {
+    min-width: 1080px;
+}
+
+.modal-form.modal .close {
+    top: 20px;
+}
+
+.modal-form .modal-header {
+    text-align: center;
+    justify-content: center;
+}
+
+.modal-form .modal-header .title {
+    font-size: 18px;
+}
+
+.modal.-success .modal-content {
+    padding: 50px 0;
+}
+
+.modal.-success .modal-header {
+    padding-top: 0;
+}
+
+.modal.-success .modal-body .h-title {
+    line-height: 1em;
+    margin: 20px 0 0 0;
+}
+
+.modal.-success .modal-body .action {
+    margin-top: 40px;
+}
+
+.modal.-success .modal-body .action .btn {
+    width: 220px;
+}
+
+.modal.-cancle-trip .form-default .select2-container--default .select2-selection--single {
+    border-radius: 5px;
+}
+
+.modal.-cancle-trip .booking-sum {
+    width: 330px;
+}
+
+.modal.-cancle-trip .action {
+    margin-top: 15px;
+}
+
+.modal.-cancle-trip .booking-sum div.block:last-child .h-title {
+    margin-bottom: 0;
+}
+
+.modal-form-sm.modal .modal-dialog {
+    min-width: 616px;
+}
+
+.modal-form-sm.modal .close {
+    top: 20px;
+}
+
+.modal-form-sm .modal-header .back {
+    color: #282828;
+    font-size: 24px;
+    position: absolute;
+    top: 26px;
+    left: 20px;
+}
+
+.modal-form-sm .modal-header .back:hover {
+    color: #D54E38;
+}
+
+.modal-form-sm .modal-header {
+    text-align: center;
+    justify-content: center;
+}
+
+.modal-form-sm .modal-header .title {
+    font-size: 18px;
+}
+
+.modal-form-sm .modal-body .icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.modal-form-sm .modal-body .title {
+    font-family: 'Mitr';
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.card.-history~.pagination-block {
+    width: 809px;
+}
+
+.pagination-label {
+    line-height: 1em;
+    font-size: 20px;
+}
+
+.pagination ul {
+    margin-bottom: 20px;
+}
+
+.P-review {
+    padding-top: 0;
+}
+
+.camp-detail-page .profile-detail .num-review {
+    line-height: 1em;
+}
+
+.camp-detail-page .profile-detail .num-review span {
+    margin-right: 10px;
+    top: -2px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.camp-detail-page .review-i .title .t-review .rating-star {
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 20px;
+    vertical-align: middle;
+    top: -2px;
+}
+
+.camp-detail-page .review-i .desc {
+    line-height: 1.4em;
+}
+
+.review-section {
+    padding: 60px 0;
+}
+
+.review-i {
+    margin-top: 30px;
+}
+
+.review-i .star-check {
+    width: 16px;
+    height: 16px;
+}
+
+.review-action {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.review-action .btn {
+    width: 160px;
+    height: 56px;
+    line-height: 54px;
+    border-radius: 28px;
+    border: 1px solid #333;
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.review-action .btn:hover {
+    border-color: transparent;
+    background-color: #637B69;
+    color: #fff;
+}
+
+.review-form .cover {
+    width: 190px;
+    padding-top: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.review-form .count {
+    margin-top: 15px;
+}
+
+.review-form .count .icon {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+    margin-right: 0;
+    width: 20px;
+    filter: brightness(0) invert(0);
+    opacity: 0.8;
+}
+
+.review-form .inner {
+    padding-left: 40px;
+}
+
+.review-form .title {
+    font-size: 32px;
+    line-height: 1.1em;
+    font-weight: 400;
+}
+
+.review-form label {
+    padding: 0;
+    margin: 0 0 15px 0;
+    line-height: 1em;
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.review-form .point {
+    margin-top: 30px;
+}
+
+.review-form .comment {
+    margin-top: 30px;
+}
+
+.review-form .text-count {
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #BABABA;
+}
+
+.review-form .form-default textarea.form-control {
+    padding: 15px 40px 15px 20px;
+}
+
+.review-form .form-default .form-control-feedback {
+    top: 20px;
+}
+
+.review-form .form-default .form-button {
+    margin-top: 30px;
+}
+
+.review-form .form-default .form-button .btn {
+    background-color: #637B69;
+    color: #fff;
+    width: 300px;
+}
+
+.star-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.star-container.disabled .star-check {
+    pointer-events: none;
+    cursor: default;
+}
+
+.star-check {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    -o-appearance: none !important;
+    -ms-appearance: none !important;
+    appearance: none !important;
+    width: 30px;
+    height: 30px;
+    background: url('../img/icon/star.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    outline: 0;
+    filter: brightness(0) invert(0);
+    opacity: 0.15;
+    margin-right: 5px;
+}
+
+.star-check:checked,
+.star-check:checked~input {
+    filter: brightness(1) invert(0);
+    opacity: 1;
+}
+
+.profile-detail .card .body {
+    border-left: none;
+    padding: 20px 25px;
+}
+
+.profile-detail .card .body .title.text-limit {
+    width: 100%;
+    padding-bottom: 0;
+    line-height: 1.1em;
+    max-height: 2.2em;
+}
+
+.profile-detail .card .body .inner {
+    height: 185px;
+}
+
+.profile-detail .card .body .desc {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profile-detail .card .body .desc.text-date {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.profile-page .action.-history .status {
+    height: 78px;
+    display: flex;
+    align-items: center;
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.profile-page .action.-history .status .icon {
+    width: 40px;
+    margin-right: 15px;
+}
+
+.profile-page .action .btn {
+    min-width: inherit;
+    width: 280px;
+}
+
+.select2-results__option {
+    padding: 14px 20px;
+    font-size: 20px;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #282828;
+    color: #fff;
+}
+
+.refun-select {
+    margin-bottom: 20px;
+    padding-right: 60px;
+}
+
+.form-default .refun-select .radio-control .icon {
+    top: 3px;
+    border-color: #282828;
+}
+
+.form-default .refun-select .radio-control input[type="radio"]:checked~.icon::before {
+    background-color: #D54E38;
+}
+
+.form-default .refun-select .radio-control .title {
+    margin-bottom: 0;
+    padding-left: 35px;
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.4em;
+}
+
+.form-default .refun-select .radio-control .link {
+    position: relative;
+    z-index: 10;
+    color: #282828;
+    text-decoration: underline;
+}
+
+.form-default .refun-select .radio-control .link:hover {
+    color: #D54E38;
+}
+
+.form-default .refun-select .radio-control .topic {
+    margin-bottom: 10px;
+}
+
+.form-default .refun-select .radio-control .topic span {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding: 0px 10px;
+    margin-left: 5px;
+    font-size: 16px;
+    color: #D54E38;
+    border: 1px solid #D54E38;
+    border-radius: 20px;
+}
+
+.btn-info {
+    background-color: #637B69;
+    color: #fff;
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-info:hover {
+    background-color: #282828;
+    color: #fff;
+}
+
+.btn-info:not(:disabled):not(.disabled).active,
+.btn-info:not(:disabled):not(.disabled):active,
+.show>.btn-info.dropdown-toggle {
+    background-color: #637B69;
+    color: #fff;
+}
+
+.btn-dark {
+    background-color: #282828;
+    color: #fff;
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: transparent;
+}
+
+.btn-dark:hover {
+    border-color: transparent;
+    background-color: #D54E38;
+    color: #fff;
+}
+
+.btn-dark:not(:disabled):not(.disabled).active,
+.btn-dark:not(:disabled):not(.disabled):active,
+.show>.btn-dark.dropdown-toggle {
+    border-color: transparent;
+    background-color: #282828;
+    color: #fff;
+}
+
+.btn-danger {
+    font-family: 'Mitr';
+    width: 230px;
+    background-color: #D54E38;
+    color: #fff;
+    /*font-family: "Pridi", sans-serif;*/
+    font-weight: 400;
+    font-size: 26px;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-danger.long {
+    width: 280px;
+}
+
+.btn-danger:hover {
+    background-color: #D54E38;
+    color: #fff;
+}
+
+.btn-danger:not(:disabled):not(.disabled).active,
+.btn-danger:not(:disabled):not(.disabled):active,
+.show>.btn-danger.dropdown-toggle {
+    background-color: #D54E38;
+    color: #fff;
+}
+
+@media (max-width: 1680px) {
+    .card .head .cover {
+        padding-bottom: 90%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .pagination ul {
+        margin-bottom: 15px;
+    }
+    .pagination li+li {
+        margin-left: 0;
+    }
+    .pagination .link {
+        margin: 0;
+    }
+    .pagination-label {
+        font-size: 16px;
+    }
+    .profile-page .trip-filter {
+        margin: 30px 0;
+    }
+    .profile-page .profile-detail .card .favorite {
+        left: 195px;
+    }
+    .profile-page .action.-history .status {
+        height: 45px;
+        font-size: 16px;
+    }
+    .profile-page .action.-history .status .icon {
+        width: 30px;
+        margin-right: 10px;
+    }
+    .profile-page .action.-history .btn-review {
+        width: auto;
+        font-size: 16px;
+        min-width: 160px;
+    }
+    .profile-page .action.-history .btn-review img {
+        width: 20px;
+        position: relative;
+        top: -1px;
+    }
+    .profile-page .action .btn {
+        width: 180px;
+        font-size: 16px;
+    }
+    .profile-page .action {
+        margin-top: 15px;
+    }
+    .profile-detail .wrapper-date-trip {
+        width: 80px;
+        height: 80px;
+        line-height: 1.2em;
+        border-radius: 20px;
+    }
+    .profile-detail .wrapper-date-trip .text {
+        font-size: 14px;
+    }
+    .profile-detail .card .body .desc.text-limit {
+        max-height: inherit;
+        min-height: 80px;
+    }
+    .form-default .refun-select .radio-control .icon {
+        top: 0;
+    }
+    .form-default .refun-select .radio-control .title {
+        font-size: 16px;
+    }
+    .form-default .refun-select .radio-control .topic {
+        margin-bottom: 5px;
+    }
+    .form-default .refun-select .radio-control .topic span {
+        font-size: 12px;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        font-size: 16px;
+    }
+    .select2-results__option {
+        font-size: 16px;
+    }
+    .card .head {
+        width: 260px;
+    }
+    .card .head .cover {
+        padding-bottom: 90%;
+    }
+    .card .body .title {
+        font-size: 20px;
+    }
+    .card .body .detail span {
+        white-space: nowrap;
+    }
+    .card.-history~.pagination-block {
+        width: 100%;
+    }
+    .profile-detail .card .body {
+        padding: 20px;
+    }
+    .profile-detail .card .body .inner {
+        height: 117px;
+    }
+    .profile-detail .card.-history,
+    .profile-detail .card.-favorite {
+        margin-top: 20px;
+    }
+    .modal .modal-content {
+        padding-bottom: 30px;
+    }
+    .modal .modal-body {
+        padding: 30px 30px 0 30px;
+    }
+    .modal-form.modal .modal-dialog {
+        min-width: 750px;
+    }
+    .modal .form-default textarea.form-control {
+        height: auto;
+    }
+    .review-form .title {
+        font-size: 24px;
+    }
+    .review-form label {
+        font-size: 18px;
+    }
+    .review-form .cover {
+        width: 160px;
+    }
+    .review-form .point {
+        margin-top: 25px;
+    }
+    .review-form .comment {
+        margin-top: 25px;
+    }
+    .review-form .inner {
+        padding-left: 25px;
+    }
+    .review-form .text-count {
+        font-size: 18px;
+    }
+    .review-form .form-default .form-button {
+        margin-top: 20px;
+    }
+    .review-form .form-default .form-button .btn {
+        width: 160px;
+        font-size: 18px;
+    }
+    .star-check {
+        width: 26px;
+        height: 26px;
+    }
+}
+
+@media (max-width: 768px) {
+    .pagination-block {
+        padding-top: 30px;
+    }
+    .profile-page .profile-detail .card .body {
+        padding: 20px;
+    }
+    .profile-page .profile-detail .card.-history {
+        margin-top: 15px;
+    }
+    .profile-page .action.-history {
+        margin-top: 10px;
+    }
+    .profile-page .nav-my-trip .link {
+        line-height: 1.4em;
+    }
+    .profile-page .nav-my-trip li .link::before {
+        height: 4px;
+    }
+    .profile-page .action .btn {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .profile-page .action .row {
+        margin: 0 -10px;
+    }
+    .profile-page .action .row>div {
+        padding: 0 10px;
+    }
+    .profile-page .profile-detail .card .body .desc.text-date {
+        margin-top: 10px;
+    }
+    .profile-page .profile-detail .card .favorite {
+        left: auto;
+        right: 14px;
+    }
+    .profile-detail .card .body .inner {
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .profile-detail .card .body .desc {
+        padding: 0;
+        margin-top: 10px;
+    }
+    .profile-detail .card .body .desc.text-limit {
+        min-height: inherit;
+        height: auto;
+    }
+    .profile-detail .card .body .row {
+        margin-top: 10px;
+    }
+    .profile-detail .row-40>div {
+        padding: 0 15px;
+    }
+    .profile-page .profile-detail .card .body {
+        padding: 15px;
+    }
+    .card .head {
+        width: 100%;
+    }
+    .card .body .desc.text-limit {
+        min-height: inherit;
+    }
+    .modal .modal-content {
+        padding-bottom: 20px;
+    }
+    .modal .modal-body {
+        padding: 20px 20px 0 20px;
+    }
+    .modal-form.modal .modal-dialog {
+        min-width: inherit;
+    }
+    .modal-form-sm.modal .modal-dialog {
+        min-width: auto;
+    }
+    .modal .form-default textarea.form-control {
+        height: auto;
+    }
+    .modal.-cancle-trip .booking-sum {
+        width: auto;
+        margin-top: 10px;
+    }
+    .modal .editor-content p {
+        font-size: 16px;
+    }
+    .review-form .cover {
+        width: 100%;
+    }
+    .review-form .inner {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .refun-select {
+        padding-right: 0;
+    }
+    .btn-danger {
+        font-size: 20px;
+    }
+    .review-section {
+        padding: 40px 0;
+    }
+    .sort.-style-ii {
+        margin-top: 15px;
+    }
+    .sort.-style-ii li .link {
+        padding: 6px 15px;
+    }
+    .review-i {
+        margin-top: 10px;
+    }
+    .review-i .wrapper .row {
+        margin: 0 -7.5px;
+    }
+    .review-i .wrapper .row>div {
+        padding: 0 7.5px;
+    }
+    .review-i .star-check {
+        width: 12px;
+        height: 12px;
+    }
+    .camp-detail-page .review-i .title .t-review .rating-star {
+        margin-left: 10px;
+        position: relative;
+        top: -1px;
+    }
+    .camp-detail-page .review-i .title .date {
+        font-size: 14px;
+    }
+    .camp-detail-page .review-i .title .t-review {
+        font-size: 16px;
+    }
+    .camp-detail-page .review-i .desc {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .camp-detail-page .b-icon .item-list {
+        float: right;
+    }
+    .camp-detail-page .desc-camp .h-title {
+        font-size: 22px;
+    }
+    .camp-detail-page .favorite {
+        width: 24px;
+    }
+    .camp-detail-page .b-icon .detail .feather {
+        font-size: 21px;
+    }
+    .camp-detail-page .b-icon .text {
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    /*.camp-detail-page .desc-camp .image{margin-top: 15px;}*/
+    .camp-detail-page .desc-camp .content {
+        margin-bottom: 0;
+    }
+    .camp-detail-page .mt {
+        margin-top: 20px;
+    }
+    .camp-detail-page .detail-select li {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .row-40>div {
+        padding: 0 15px;
+    }
+}
+
+
+/* Addon 27/12/2021 */
+
+.profile-credit {}
+
+.profile-credit-header {
+    margin-bottom: 50px;
+}
+
+.profile-credit-header .title {
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.profile-credit-header .title img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0;
+    position: relative;
+    top: -2px;
+}
+
+.profile-credit-header .link {
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #282828;
+    text-decoration: underline;
+}
+
+.profile-credit-body {}
+
+.profile-credit-info {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.profile-credit-info .wrapper {
+    border-radius: 20px;
+    border: 1px solid #637B69;
+    padding: 30px 50px 25px 50px;
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.2em;
+}
+
+.profile-credit-info .wrapper div {
+    display: block;
+    font-family: "DMSans", sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    color: #637B69;
+    line-height: 1.2em;
+}
+
+.profile-credit-info .wrapper span {
+    font-size: 0.84em;
+    padding-right: 10px;
+}
+
+.profile-credit-empty {
+    border-radius: 20px;
+    padding: 140px 40px;
+    background-color: #F8F7F5;
+    text-align: center;
+}
+
+.profile-credit-empty .title {
+    font-family: "Pridi", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.profile-credit-empty .action {
+    margin-top: 30px;
+}
+
+.profile-credit-table .topic {
+    font-family: "Pridi", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+
+.profile-credit-table .table {
+    border-radius: 4px;
+    border: 1px solid #DEDEDF;
+    overflow: hidden;
+}
+
+.profile-credit-table .thead {
+    font-family: "Pridi", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2em;
+    background-color: #F8F7F5;
+}
+
+.profile-credit-table .tbody {
+    font-family: "Pridi", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.2em;
+}
+
+.profile-credit-table .tbody .price {
+    color: #637B69;
+    font-weight: 500;
+}
+
+.profile-credit-table .tbody>.row {
+    border-top: 1px solid #DEDEDF;
+}
+
+.profile-credit-table .tbody>.row:nth-child(even) {
+    background-color: #F8F7F5;
+}
+
+.profile-credit-table .date {
+    width: 160px;
+    padding: 20px 40px;
+}
+
+.profile-credit-table .title {
+    padding: 20px 40px;
+}
+
+.profile-credit-table .title .link {
+    color: #282828;
+    text-decoration: underline;
+}
+
+.profile-credit-table .title .link:hover {
+    color: #637B69
+}
+
+.profile-credit-table .price {
+    text-align: right;
+    width: 200px;
+    padding: 20px 40px;
+}
+
+
+/*.payment-method .choice{margin-bottom: 20px;}*/
+
+.payment-method .choice+.choice {
+    border-top: 1px solid #E2E2E2;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.payment-method .radio-control {
+    font-size: 20px;
+}
+
+.payment-method .radio-control .icon {
+    position: relative;
+    margin-right: 30px;
+    top: 0;
+}
+
+.payment-method .radio-control .icon:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.payment-method .radio-control .inner {
+    display: none;
+}
+
+.payment-method .radio-control .bank {
+    position: relative;
+    z-index: 20;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid #E2E2E2;
+    width: 500px;
+    padding: 30px 40px;
+    margin-left: 50px;
+    font-family: "Pridi", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+.payment-method .radio-control .bank label {
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    line-height: 40px;
+}
+
+.payment-method .radio-control .bank .row+.row {
+    margin-top: 10px;
+}
+
+.payment-method .radio-control input[type="radio"]:checked~.wrapper .icon {
+    border-color: #282828;
+}
+
+.payment-method .radio-control input[type="radio"]:checked~.wrapper .icon:before {
+    background-color: #282828;
+}
+
+.payment-method .radio-control input[type="radio"]:checked~.wrapper .inner {
+    display: block;
+}
+
+.payment-method .radio-control .note {
+    padding-left: 50px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.payment-method .slip {
+    position: relative;
+    z-index: 20;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+
+.payment-method .slip .countdown {
+    font-family: "Pridi", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+.payment-method .slip .action {
+    margin-top: 20px;
+}
+
+.payment-method .slip .action .btn {
+    width: 400px;
+}
+
+.payment-method .slip .cover {
+    width: 340px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.payment-method .slip .cover img {
+    width: 100%;
+}
+
+.payment-method .slip .cover .link {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+}
+
+.booking-sum .block.-code .action {
+    margin-top: 0;
+}
+
+.booking-sum .block.-code .action .btn {
+    font-family: "Pridi", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.booking-sum .block.-code .action .btn.disabled {
+    opacity: 1;
+    background-color: #ddd;
+    border-color: transparent;
+}
+
+.booking-sum .or {
+    text-align: center;
+    color: #999;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.booking-sum .block.-code .form-default {
+    margin-top: 0;
+}
+
+.booking-sum .block.-code .form-default .form-control {
+    font-size: 20px;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.booking-sum .block.-code .form-default .action {
+    margin-left: -4px;
+}
+
+.booking-sum .block.-code .form-default .btn {
+    border-radius: 4px;
+    /*-webkit-border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;*/
+    font-family: "Pridi", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.booking-sum .block.-code .form-default .note {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.booking-sum .block.-code .header {
+    margin-bottom: 15px;
+}
+
+.booking-sum .block.-code .header .title {
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.booking-sum .block.-code .header .title img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0;
+    position: relative;
+    top: -2px;
+    width: 20px;
+}
+
+.booking-sum .block.-code .header .desc {
+    font-size: 20px;
+    color: #999;
+}
+
+.booking-sum .block.-code .header .value {
+    font-size: 24px;
+}
+
+.info-tooltip {
+    display: inline-block;
+    position: relative;
+}
+
+.info-tooltip img {
+    width: 16px;
+    cursor: pointer;
+}
+
+.info-tooltip:hover .tooltip {
+    display: block;
+    opacity: 1;
+}
+
+.info-tooltip .tooltip {
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    margin-top: 5px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 360px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-family: "Pridi", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+
+.info-tooltip .tooltip .link {
+    color: #282828;
+    text-decoration: underline;
+}
+
+.info-tooltip .tooltip .link:hover {
+    color: #637B69;
+}
+
+.info-tooltip .tooltip:before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+
+.camp-detail-page .review-i li {
+    width: 100%;
+}
+
+.camp-detail-page .review-i .cover {
+    width: 130px;
+    height: auto;
+    padding-top: 100%;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.camp-detail-page .review-i .cover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.camp-detail-page .review-i .desc {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.camp-detail-page .review-i .reply {
+    margin-left: 160px;
+}
+
+.camp-detail-page .review-i .reply .wrapper {
+    border-top: 1px solid #e2e2e2;
+    margin-top: 25px;
+    padding-top: 25px;
+}
+
+.camp-detail-page .review-i .reply .cover {
+    width: 80px;
+}
+
+.camp-detail-page .review-i .reply .desc {
+    margin-top: 10px;
+}
+
+.camp-detail-page .review-i .reply .row {
+    margin: 0 -7.5px;
+}
+
+.camp-detail-page .review-i .reply .row>div {
+    padding: 0 7.5px;
+}
+
+@media (max-width: 1680px) {}
+
+@media (max-width: 1440px) {
+    .camp-detail-page .review-i li {
+        padding: 25px 0;
+    }
+    .camp-detail-page .review-i .desc {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .camp-detail-page .review-i .cover {
+        width: 40px;
+    }
+    .camp-detail-page .review-i .title .date {
+        white-space: nowrap;
+    }
+    .camp-detail-page .review-i .title .t-review .rating-star {
+        margin-left: 0;
+        top: 0;
+        margin-top: 9px;
+        width: 100%;
+    }
+    .camp-detail-page .review-i .desc {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .camp-detail-page .review-i .reply {
+        margin-left: 55px;
+    }
+    .camp-detail-page .review-i .reply .wrapper {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .camp-detail-page .review-i .reply .cover {
+        width: 40px;
+    }
+    .camp-detail-page .review-i .reply .desc {
+        margin-top: 5px;
+    }
+    .booking-sum .or {
+        font-size: 18px;
+        line-height: 1.2em;
+        margin: 15px 0;
+    }
+    .booking-sum .block {
+        padding: 20px;
+    }
+    .booking-sum .block.-code .header {
+        margin-bottom: 15px;
+    }
+    .booking-sum .block.-code .header .title {
+        font-size: 24px;
+    }
+    .booking-sum .block.-code .header .desc {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    .booking-sum .block.-code .header .value {
+        font-size: 20px;
+        margin-top: 10px;
+        line-height: 1.2em;
+    }
+}

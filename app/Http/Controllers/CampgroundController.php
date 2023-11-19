@@ -8,7 +8,9 @@ use App\Models\Campground;
 use App\Models\catagory;
 use App\Models\catagory_campground;
 use App\Models\Review;
-
+use App\Models\product;
+use Geocoder\Provider\GoogleMaps\GoogleMaps;
+use Geocoder\Query\GeocodeQuery;
 
 
 class CampgroundController extends Controller
@@ -29,13 +31,14 @@ class CampgroundController extends Controller
     {  
 
         $campground=campground::find($id) ;
+        $product = Product::all();
         $reviews = Review::where('campground_id', $id)->get();
 
         
 
        
 
-        return view('campground.campground_detail',compact('campground', 'reviews'));          
+        return view('campground.campground_detail',compact('campground', 'reviews','product'));          
     
     }
 
@@ -162,6 +165,31 @@ return redirect('login');
 
        
     }
+
+    public function geocodeAddress($address)
+{
+    // Set your Google Maps API key
+    $apiKey = config('services.google.maps_api_key');
+
+    // Create a Geocoder instance with the Google Maps provider
+    $geocoder = new \Geocoder\Provider\GoogleMaps\GoogleMaps($apiKey);
+
+    try {
+        // Geocode the address
+        $result = $geocoder->geocodeQuery(GeocodeQuery::create($address));
+
+        // Access the latitude and longitude
+        $latitude = $result->first()->getCoordinates()->getLatitude();
+        $longitude = $result->first()->getCoordinates()->getLongitude();
+
+        // Use $latitude and $longitude as needed in your application
+        // ...
+
+    } catch (\Exception $e) {
+        // Handle geocoding errors
+        // ...
+    }
+}
 
 
 

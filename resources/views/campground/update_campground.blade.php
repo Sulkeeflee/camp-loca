@@ -128,12 +128,11 @@
                
                 <div class="mb-3">
                     <label class="form-label" for="location">location</label>
-                    <input class="form-control" type="text" name="location" placeholder="write a location"  value="{{$campground->location}}"> 
+                    <input class="form-control" type="text" name="location" id="location" placeholder="write a location"  value="{{$campground->location}}"> 
                         <div class="valid-feedback">
                             looks good!
                         </div>
                     </div>
-                 
 
                 <div class="mb-3">
                     <label class="form-label">Update Category</label>

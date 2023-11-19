@@ -93,7 +93,7 @@
                             </x-jet-dropdown-link>
 
                             <x-jet-dropdown-link href="{{url('show_order')}}">
-                                {{ __('Order') }}
+                                {{ __('My Order') }}
                             </x-jet-dropdown-link>
 
                             @if (Laravel\Jetstream\Jetstream::hasApiFeatures())

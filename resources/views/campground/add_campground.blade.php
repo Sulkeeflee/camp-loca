@@ -139,7 +139,7 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="location">Location</label>
-                    <input class="form-control" type="text" name="location" placeholder="write a location" required="">
+                    <input class="form-control" type="text" name="location" id="location" placeholder="Yosemite National Park, CA">
                     <div class="valid-feedback">
                         looks good!
                     </div>

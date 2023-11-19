@@ -118,21 +118,17 @@
                @endforeach
                <span style="padding-top: 20px;">
 
-               {!! $product->withQueryString()->links() !!}
+{!! $product->withQueryString()->links() !!}
 
-              </span>
+</span>
+             
                
          </div>
       </section>           
                    
 
 
-                    <div class="product__pagination">
-                        <a href="#">1</a>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
-                        <a href="#"><i class="fa fa-long-arrow-right"></i></a>
-                    </div>
+                   
                 </div>
             </div>
         </div>

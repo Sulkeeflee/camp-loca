@@ -12,14 +12,14 @@ use App\Models\Product;
 
 use App\Models\Cart;
 
-use App\Models\Oder;
+use App\Models\Oder; 
 
 use App\Models\Catagory;
 
 use Session; 
 
 use Stripe;
-
+ 
 
 
 class HomeController extends Controller
@@ -30,6 +30,7 @@ class HomeController extends Controller
 
         $product=Product::paginate(3);
         return view('home.userpage',compact('product'));
+       
     }
         
     public function redirect()
@@ -363,7 +364,7 @@ class HomeController extends Controller
 
        {
 
-        $product=Product::paginate(10);
+        $product=Product::paginate(9);
         $catagory=catagory::all();
        
         return view( 'home.all_product',compact('product', 'catagory'));

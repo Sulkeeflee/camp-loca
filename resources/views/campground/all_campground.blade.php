@@ -45,6 +45,21 @@ body {
     background-color:#F7F9F9;
      }
 
+     #cluster-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures the div takes up the full height of the viewport */
+}
+
+#cluster-map img {
+    max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
+    max-height: 100%; /* Ensure the image doesn't exceed the height of its container */
+}
+gmp-map {    
+       width: 100%;
+       height: 500px;  
+     }
 
 
 
@@ -115,6 +130,16 @@ body {
         </div>
     </section>
     <!-- Breadcrumb Section End -->
+
+    <main class="container mt-5">
+    <gmp-map center="6.513299, 101.298993" zoom="12" map-id="DEMO_MAP_ID">
+      <gmp-advanced-marker position="6.545344, 101.116632" title="Home">
+      </gmp-advanced-marker>
+    </gmp-map>
+
+
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnmqIj7seNd1MXeLDdxEgUjpNJKJLYRUQ&callback=console.debug&libraries=maps,marker&v=beta">
+    </script>
 
     <!-- Product Section Begin -->
     <section class="product spad">

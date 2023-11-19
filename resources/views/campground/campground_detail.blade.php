@@ -348,13 +348,15 @@
             </div>
 
             
-           
+
+            
         </div>
     </div>
     
     <div class="col-md-6">
-    <div id="map" class="mb-4" style="width: 100%; height: 300px;"></div>
-    
+    <div id="map" class="mb-4" style="width: 100%; height: 400px;">    
+  
+  </div>
     
     <h2>Leave a Review</h2>
 
@@ -431,6 +433,42 @@
          
          </p>
       </div>
+
+
+      <script>
+        function initMap() {
+            var lat = @json($campground['6.513299']);
+            var lng = @json($campground['101.298993']);
+            var center = { lat: lat, lng: lng };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 8,
+                center: center,
+                scrollwheel: false
+            });
+
+            var contentString = `
+                <strong>{{ $campground['name'] }}<br />
+                {{ $campground['location'] }}</strong>
+                <p>{{ $campground['description'] }}</p>
+            `;
+
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+
+            var marker = new google.maps.Marker({
+                position: center,
+                map: map
+            });
+
+            marker.addListener('click', function () {
+                infowindow.open(map, marker);
+            });
+        }
+    </script>
+     <!-- Replace 'YOUR-API-KEY' with your actual Google Maps API key -->
+     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnmqIj7seNd1MXeLDdxEgUjpNJKJLYRUQ&callback=initMap"></script>
+     
       <!-- jQery -->
       <script src="home/js/jquery-3.4.1.min.js"></script>
       <!-- popper js -->

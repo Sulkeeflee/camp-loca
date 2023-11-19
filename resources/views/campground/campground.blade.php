@@ -109,34 +109,39 @@
             </div>
                     
                    
-           
-
-                    @foreach($campground as $campground) 
+             
+            @foreach($campground as $campgrounds)
         <div class="card mb-3">
             <div class="row">
                 <div class="col-md-4">
-                   
-                        <img class="img-fluid" height="100" width="180" src="campground/{{$campground->image}}" alt="">
-                                              
-                           
+                    <img class="img-fluid" height="100" width="180" src="{{ asset('campground/' . $campgrounds->image) }}" alt="">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title">
-                        {{$campground->title}}
+                            {{ $campgrounds->title }}
                         </h5>
                         <p class="card-text">
-                        {{$campground->description}}
+                            {{ $campgrounds->description }}
                         </p>
-                        <p class="card-text"><small class="text-muted">
-                        {{$campground->location}}
-                            </small></p>
-                        <a href="{{url('campground_detail',$campground->id)}}" class="btn btn-dark">View</a>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                {{ $campgrounds->location }}
+                            </small>
+                        </p>
+                        <a href="{{ url('campground_detail', $campgrounds->id) }}" class="btn btn-dark">View</a>
                     </div>
                 </div>
             </div>
         </div>
-        @endforeach
+@endforeach
+
+      
+        <span style="padding-top: 20px;">
+
+               {!! $campground->withQueryString()->links() !!}
+
+              </span>
         
 
                        
@@ -145,12 +150,6 @@
              
 
 
-                    <div class="product__pagination">
-                        <a href="#">1</a>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
-                        <a href="#"><i class="fa fa-long-arrow-right"></i></a>
-                    </div>
                 </div>
             </div>
         </div>

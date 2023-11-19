@@ -12,16 +12,17 @@ class CreateCampgroundsTable extends Migration
      * @return void
      */
     public function up()
-    {
+    { 
         Schema::create('campgrounds', function (Blueprint $table) {
             $table->id();
-
+            $table->unsignedBigInteger('author')->nullable();
+            $table->foreign('author')->references('id')->on('users')->nullable();
             $table->string('title')->nullable();
             $table->string('location')->nullable();
             $table->string('description')->nullable();
             $table->string('catagory')->nullable();
-            $table->string('image')->nullable();          
-
+            $table->json('geometry')->nullable();
+            $table->string('image')->nullable();
             $table->timestamps();
         });
     }
